@@ -1,0 +1,30 @@
+//! g="Audio Imperia/Trailer Guitar" n="Guitar"
+//! m="Guitar"
+//! id=22222222-42b4-4acc-afde-c88e28409723
+Bank * * Guitar
+//! c=long i=note-whole o=@1/note@1:12,127
+1 Sustain
+//! c=long i=staccatissimo-stopped o=@1/note@1:13,127
+2 Staccatissimo
+//! c=long i=staccato o=@1/note@1:14,127
+3 Staccato
+//! c=long-dark i=staccato-con-sord o=@1/note@1:15,127
+4 Muted
+//! c=short i=vibrato o=@1/note@1:16,127
+5 Vibrato
+//! c=short i=rip-downward o=@1/note@1:17,127
+6 Slide Down
+//! c=fx i=note-whole o=@1/note@1:18,127
+7 Fifth Sustained
+//! c=fx i=staccatissimo-stopped o=@1/note@1:19,127
+8 Fifth Staccatissimo
+//! c=fx i=staccato o=@1/note@1:20,127
+9 Fifth Staccato
+//! c=fx i=staccato-con-sord o=@1/note@1:21,127
+10 Fifth Muted
+//! c=default i=ghost-eighth o=@1/note@1:22,127
+11 Dead Note Low
+//! c=default i=ghost-eighth o=@1/note@1:23,127
+12 Dead Note High
+//! c=default i=con-sord o=@1/note@1:24,127
+13 Hand Mute
