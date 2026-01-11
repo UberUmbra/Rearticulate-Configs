@@ -1,0 +1,234 @@
+//----------------------------------------------------------------------------
+// Source: Lenard Stockfisch (FishingForSound)
+// https://github.com/jtackaberry/reaticulate/issues/132
+//===========================================================================
+
+//! g="8Dio/Insolidus" n="Legato"
+//! id=bb65bdd7-6c7e-42ef-9877-66c5f7c901d9
+Bank * * 8Dio Insolidus Legato
+//! c=legato i=legato o=cc:12,1
+1 Ah
+//! c=legato i=legato o=cc:12,6
+2 Eh
+//! c=legato i=legato o=cc:12,11
+7 Oh
+//! c=legato i=legato o=cc:12,16
+5 Uh
+
+//! g="8Dio/Insolidus" n="Sustain"
+//! id=b6981483-249d-41cd-9d57-ceb98c8204d6
+Bank * * 8Dio Insolidus Sustain
+//! c=long i=note-whole o=cc:12,1
+1 Uh
+//! c=long i=note-whole o=cc:12,6
+2 Ah
+//! c=long i=note-whole o=cc:12,11
+3 Mmm
+//! c=long i=note-whole o=cc:12,16
+4 Uh (Loop)
+//! c=long i=note-whole o=cc:12,21
+5 Ah (Loop)
+//! c=long i=note-whole o=cc:12,26
+6 Mmmm (Loop)
+
+//! g="8Dio/Insolidus" n="Arc 2 Syllables"
+//! id=39af1e6d-e0a8-4729-8170-ce9ec8e4b932
+Bank * * 8Dio Insolidus Arc 2 Syllables
+//! c=long i=cresc-half o=cc:12,1
+1 Ah-Noh
+//! c=long i=cresc-half o=cc:12,6
+2 Far-Soh
+//! c=long i=cresc-half o=cc:12,11
+3 Eh-Loh
+//! c=long i=cresc-half o=cc:12,16
+4 Ah-Tus
+//! c=long i=cresc-half o=cc:12,21
+5 Rar-Mus
+//! c=long i=cresc-half o=cc:12,26
+6 Zar-Rus
+//! c=long i=cresc-half o=cc:12,31
+7 Ah-Eh
+//! c=long i=cresc-half o=cc:12,36
+8 Uh-Nuh
+//! c=long i=cresc-half o=cc:12,41
+9 Mah-Neh
+
+//! g="8Dio/Insolidus" n="Arc 3 Syllables"
+//! id=152f8d5d-32f7-4f5f-8dc6-679856328212
+Bank * * 8Dio Insolidus Arc 3 Syllables
+//! c=long i=cresc-half o=cc:12,1
+1 Ah-Noh-Soh
+//! c=long i=cresc-half o=cc:12,6
+2 Far-Oh-Loh
+//! c=long i=cresc-half o=cc:12,11
+3 Eh-Tu-Noh
+//! c=long i=cresc-half o=cc:12,16
+4 Ah-Tu-Mus
+//! c=long i=cresc-half o=cc:12,21
+5 Star-Su-Rus
+//! c=long i=cresc-half o=cc:12,26
+6 Zar-Nu-Stus
+//! c=long i=cresc-half o=cc:12,31
+7 Ah-Eh-Uh
+//! c=long i=cresc-half o=cc:12,36
+8 Ni-Mah-Suh
+//! c=long i=cresc-half o=cc:12,41
+9 Eh-Nu-Luh
+
+//! g="8Dio/Insolidus" n="Arc 4 Syllables"
+//! id=6f1bd700-5256-4211-9060-772ee85115d2
+Bank * * 8Dio Insolidus Arc 4 Syllables
+//! c=long i=cresc-half o=cc:12,1
+1 Car-Pe-Noc-Tem
+//! c=long i=cresc-half o=cc:12,6
+2 Zar-Te-Oh-Sem
+//! c=long i=cresc-half o=cc:12,11
+3 Ag-Nus-De-Ee
+//! c=long i=cresc-half o=cc:12,16
+4 Mar-Tu-Neh-Ee
+//! c=long i=cresc-half o=cc:12,21
+5 Im-Pe-Ri-Us
+//! c=long i=cresc-half o=cc:12,26
+6 Eh-Nu-Mi-Um
+//! c=long i=cresc-half o=cc:12,31
+7 Veh-Lo-Ci-Us
+//! c=long i=cresc-half o=cc:12,36
+8 Meh-Noh-Ci-Tus
+
+//! g="8Dio/Insolidus" n="Multi Vowels 3-4"
+//! id=967e5160-f30a-447a-b6c8-ca8e3381a23d
+Bank * * 8Dio Insolidus Multi Vowels 3-4
+//! c=long i=phrase o=cc:12,1
+1 Totus-Tuus
+//! c=long i=phrase o=cc:12,6
+2 Mater Nostri
+//! c=long i=phrase o=cc:12,11
+3 Sum Maria
+//! c=long i=phrase o=cc:12,16
+4 Redemptoris
+//! c=long i=phrase o=cc:12,21
+5 Virgo Dei
+//! c=long i=phrase o=cc:12,26
+6 Virgo Pia
+//! c=long i=phrase o=cc:12,31
+7 Mater Mundi
+//! c=long i=phrase o=cc:12,36
+8 Salvatoris
+//! c=long-dark i=phrase o=cc:12,41
+9 Maaaaaa-Ri-Ah (FF)
+//! c=long-dark i=phrase o=cc:12,46
+10 Ma-Ri-Ahhhhhh (FF)
+
+//! g="8Dio/Insolidus" n="Multi Vowels 3-4 Swells"
+//! id=8639dbc3-ab5f-4bf4-bd60-24c184b9d391
+Bank * * 8Dio Insolidus Multi Vowels 3-4 Swells
+//! c=long i=cresc-half o=cc:12,1
+1 Totus-Tuus
+//! c=long i=cresc-half o=cc:12,6
+2 Mater Nostri
+//! c=long i=cresc-half o=cc:12,11
+3 Sum Maria
+//! c=long i=cresc-half o=cc:12,16
+4 Redemptoris
+//! c=long i=cresc-half o=cc:12,21
+5 Virgo Dei
+//! c=long i=cresc-half o=cc:12,26
+6 Mater Mundi
+//! c=long i=cresc-half o=cc:12,31
+7 Salvatoris
+
+//! g="8Dio/Insolidus" n="Multi Vowels 4-4 MW"
+//! id=0fd18862-d3ed-4bcf-bf05-123090e57de6
+Bank * * 8Dio Insolidus Multi Vowels 4-4 MW
+//! c=long i=phrase o=cc:12,1
+1 Car-Pe-Noc-Tem
+//! c=long i=phrase o=cc:12,6
+2 Zar-Te-Oh-Sem
+//! c=long i=phrase o=cc:12,11
+3 Ag-Nus-De-Ee
+//! c=long i=phrase o=cc:12,16
+4 Mar-Tu-Neh-Ee
+//! c=long i=phrase o=cc:12,21
+5 Im-Pe-Ri-Um
+//! c=long i=phrase o=cc:12,26
+6 Eh-Nu-Mi-Um
+//! c=long i=phrase o=cc:12,31
+7 Veh-Lo-Ci-Us
+//! c=long i=phrase o=cc:12,36
+8 Meh-Noh-Ci-Tus
+
+//! g="8Dio/Insolidus" n="Multi Vowels 4-4 Cresc"
+//! id=2876eeb5-15e1-4615-b5b9-faa92a2391ba
+Bank * * 8Dio Insolidus Multi Vowels 4-4 Cresc
+//! c=long i=cresc-half o=cc:12,1
+1 Car-Pe-Noc-Tem
+//! c=long i=cresc-half o=cc:12,6
+2 Zar-Te-Oh-Sem
+//! c=long i=cresc-half o=cc:12,11
+3 Ag-Nus-De-Ee
+//! c=long i=cresc-half o=cc:12,16
+4 Mar-Tu-Neh-Ee
+//! c=long i=cresc-half o=cc:12,21
+5 Im-Pe-Ri-Um
+//! c=long i=cresc-half o=cc:12,26
+6 Eh-Nu-Mi-Um
+//! c=long i=cresc-half o=cc:12,31
+7 Veh-Lo-Ci-Us
+//! c=long i=cresc-half o=cc:12,36
+8 Meh-Noh-Ci-Tus
+
+//! g="8Dio/Insolidus" n="Multi Vowels 4-4 Swells 1"
+//! id=2a42f0b2-d25c-45af-bf3c-1508d1a560ee
+Bank * * 8Dio Insolidus Multi Vowels 4-4 Swells 1
+//! c=long i=cresc-half o=cc:12,1
+1 Car-Pe-Noc-Tem
+//! c=long i=cresc-half o=cc:12,6
+2 Zar-Te-Oh-Sem
+//! c=long i=cresc-half o=cc:12,11
+3 Ag-Nus-De-Ee
+//! c=long i=cresc-half o=cc:12,16
+4 Mar-Tu-Neh-Ee
+//! c=long i=cresc-half o=cc:12,21
+5 Im-Pe-Ri-Um
+//! c=long i=cresc-half o=cc:12,26
+6 Eh-Nu-Mi-Um
+//! c=long i=cresc-half o=cc:12,31
+7 Veh-Lo-Ci-Us
+//! c=long i=cresc-half o=cc:12,36
+8 Meh-Noh-Ci-Tus
+
+//! g="8Dio/Insolidus" n="Multi Vowels 4-4 Swells 2"
+//! id=4cc639cd-c66a-4739-a83d-5a3a3d12eaa6
+Bank * * 8Dio Insolidus Multi Vowels 4-4 Swells 2
+//! c=long i=cresc-half o=cc:12,1
+1 Car-Pe-Noc-Tem
+//! c=long i=cresc-half o=cc:12,6
+2 Zar-Te-Oh-Sem
+//! c=long i=cresc-half o=cc:12,11
+3 Ag-Nus-De-Ee
+//! c=long i=cresc-half o=cc:12,16
+4 Mar-Tu-Neh-Ee
+//! c=long i=cresc-half o=cc:12,21
+5 Im-Pe-Ri-Um
+//! c=long i=cresc-half o=cc:12,26
+6 Eh-Nu-Mi-Um
+//! c=long i=cresc-half o=cc:12,31
+7 Veh-Lo-Ci-Us
+//! c=long i=cresc-half o=cc:12,36
+8 Meh-Noh-Ci-Tus
+
+//! g="8Dio/Insolidus" n="Shorts"
+//! id=5ffc3f85-558e-458d-9fd3-efc1099887b3
+Bank * * 8Dio Insolidus Shorts
+//! c=short i=tenuto-quarter o=cc:12,1
+1 Tem (CC1 Dynamics)
+//! c=short i=tenuto-quarter o=cc:12,6
+2 Sem (CC1 Dynamics)
+//! c=short i=tenuto-quarter o=cc:12,11
+3 Ee (CC1 Dynamics)
+//! c=short i=tenuto-quarter o=cc:12,16
+4 Um (CC1 Dynamics)
+//! c=short i=tenuto-quarter o=cc:12,21
+5 Us (CC1 Dynamics)
+//! c=short i=tenuto-quarter o=cc:12,26
+6 Tus (CC1 Dynamics)

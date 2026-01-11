@@ -1,0 +1,16 @@
+//! g="Spitfire/Appassionata" n="Appassionata Strings"
+Bank * * SPTF APP Strings
+//!c=legato i=legato o=note:12
+20 Legato Combo
+//!c=legato i=legato o=note:13
+21 Legato Slurred
+//! c=long i=note-whole o=note:14
+1 Sustain
+//!c=short=light i=staccato o=note:15
+42 Hairpin Short
+//!c=short i=staccato o=note:16
+41 Hairpin Med
+//! c=long i=note-whole o=note:14
+2 Hairpin Bow Change
+//!c=short=light i=staccato o=note:15
+44 Glancing Attack

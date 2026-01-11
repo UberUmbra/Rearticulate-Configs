@@ -1,0 +1,3378 @@
+// Reabank file for Reaticulate - http://reaticulate.com/
+//
+// This file is a specially formatted Reabank file that is notated for use by Reaticulate.
+// Specification can be found here:
+//
+//      http://reaticulate.com/reabank.html
+//
+
+//----------------------------------------------------------------------------
+// BBC Symphonic Orchestra Discover
+//
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Strings" n="Discover Violins 1"
+//! id=11111111-1646-33b5-c813-e4edc6dd0cce
+Bank 26 12 Discover Violins 1
+
+//! c=long i=note-whole o=note:0
+1 long
+//! c=short i=spiccato o=note:1
+42 spiccato
+//! c=short-light i=pizz o=note:2
+56 pizzicato
+//! c=long-dark i=tremolo o=note:3
+11 tremolo
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Strings" n="Discover Violins 2"
+//! clone="Spitfire/BBC Symphonic Orchestra Discover/Strings/Discover Violins 1"
+//! id=11111111-12be-f124-cf02-06b5ba54179b
+Bank 26 13 Discover Violins 2
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Strings" n="Discover Violas"
+//! clone="Spitfire/BBC Symphonic Orchestra Discover/Strings/Discover Violins 1"
+//! id=11111111-7c2e-7116-0bd3-8c9beab67d49
+Bank 26 14 Discover Violas
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Strings" n="Discover Celli"
+//! clone="Spitfire/BBC Symphonic Orchestra Discover/Strings/Discover Violins 1"
+//! id=11111111-7354-822a-9238-35a4fd34ccbe
+Bank 26 15 Discover Celli
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Strings" n="Discover Basses"
+//! clone="Spitfire/BBC Symphonic Orchestra Discover/Strings/Discover Violins 1"
+//! id=11111111-8479-e0cd-643d-77a44ccab834
+Bank 26 16 Discover Basses
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Brass" n="Discover Horns a4"
+//! id=11111111-d28b-5921-5340-36a4ec149cfc
+Bank 26 17 Discover Horns a4
+
+//! c=long i=note-whole o=note:0
+1 long
+//! c=short i=spiccato o=note:1
+41 staccatissimo
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Brass" n="Discover Trumpets a3"
+//! clone="Spitfire/BBC Symphonic Orchestra Discover/Brass/Discover Horns a4"
+//! id=11111111-5e4f-419f-4064-ced2c9d37c76
+Bank 26 18 Discover Trumpets a3
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Brass" n="Discover Tenor Trombones a3"
+//! clone="Spitfire/BBC Symphonic Orchestra Discover/Brass/Discover Horns a4"
+//! id=11111111-e06b-7f42-41d3-5fde7055e6df
+Bank 26 19 Discover Tenor Trombones a3
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Brass" n="Discover Bass Trombones a2"
+//! clone="Spitfire/BBC Symphonic Orchestra Discover/Brass/Discover Horns a4"
+//! id=11111111-d067-9184-6ec7-c55ea2f7f0b0
+Bank 26 20 Discover Bass Trombones a2
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Brass" n="Discover Tuba"
+//! clone="Spitfire/BBC Symphonic Orchestra Discover/Brass/Discover Horns a4"
+//! id=11111111-7598-31b9-1fd3-3ea1b5f91a44
+Bank 26 21 Discover Tuba
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Woodwinds" n="Discover Flutes a3"
+//! id=11111111-f649-c2c4-6d53-afc79ee1fcaf
+Bank 26 22 Discover Flutes a3
+
+//! c=long i=note-whole o=note:0
+1 long
+//! c=short i=spiccato o=note:1
+41 staccatissimo
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Woodwinds" n="Discover Piccolo"
+//! clone="Spitfire/BBC Symphonic Orchestra Discover/Woodwinds/Discover Flutes a3"
+//! id=11111111-e54c-2bcf-608d-923e5b62135d
+Bank 26 23 Discover Piccolo
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Woodwinds" n="Discover Oboes a3"
+//! clone="Spitfire/BBC Symphonic Orchestra Discover/Woodwinds/Discover Flutes a3"
+//! id=11111111-419c-efe6-634c-0fb2608c9f8d
+Bank 26 24 Discover Oboes a3
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Woodwinds" n="Discover Clarinets a3"
+//! clone="Spitfire/BBC Symphonic Orchestra Discover/Woodwinds/Discover Flutes a3"
+//! id=11111111-c010-3e79-5c20-f02c518838c3
+Bank 26 25 Discover Clarinets a3
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/BBC Symphonic Orchestra Discover/Woodwinds" n="Discover Bassoons a3"
+//! clone="Spitfire/BBC Symphonic Orchestra Discover/Woodwinds/Discover Flutes a3"
+//! id=11111111-8c2f-1639-4496-2ac024c77c4c
+Bank 26 26 Discover Bassoons a3
+
+
+//----------------------------------------------------------------------------
+// Source: blawler - https://github.com/jtackaberry/reaticulate/issues/22
+//
+
+
+// Red Room Audio "Palette" articulations
+// For "Symphonic Scetchpad" and "Melodics Brush Pack 1"
+// Notes: Full and Chamber versions use the same articulations
+// Notes: Supports layered articulations - tenuto, marcato and some sustains layer staccato for stronger attack.
+// Rev for Version 1.1 update April 2018  NO changes to Sketchpad. Con Sord inst. plus several articulations added to BP1
+// Apr-23-2018  BHLawler at gmail
+
+//! g="Red Room Audio/Palette" n="Strings"
+//! id=11111111-f466-b82a-5a98-c5196545e7ef
+Bank 7 91 Strings
+//! c=long i=note-whole o=note:96
+1  sustain
+//! c=long i=bow-down o=note:96/note:99
+2  sustain+stacc
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=long-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+//! c=short-light i=spiccato o=note:100
+42  spiccato
+//! c=short-dark i=pizz o=note:101
+56  pizz
+//! c=fx i=trill o=note:102
+70  trill m2
+//! c=fx i=trill-maj2 o=note:103
+71  trill M2
+
+
+//! g="Red Room Audio/Palette" n="Woodwins"
+//! id=11111111-83af-fa5a-d92e-a101cce7d194
+Bank 7 92 Woodwins
+//! c=long i=note-whole o=note:96
+1   sustain
+//! c=long i=bow-down o=note:96/note:99
+2   sustain+stacc
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=short-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+//! c=short-light i=staccato o=note:100
+42  staccatissimo
+//! c=fx i=trill o=note:102
+70  trill m2
+//! c=fx i=trill-maj2 o=note:103
+71  trill M2
+
+//! g="Red Room Audio/Palette" n="Brass"
+//! clone="Red Room Audio/Palette/ Woodwins"
+//! id=11111111-caf7-4cae-1e3e-6babfcce2d9e
+Bank 7 93 Brass
+
+
+//! g="Red Room Audio/Palette" n="Choir"
+//! id=11111111-0438-12fc-c81d-5e0d2f0117ce
+Bank 7 94 Choir
+//! c=long i=note-whole o=note:24
+90 AH sustain
+//! c=short i=staccato o=note:25
+91 AH staccato
+//! c=long i=note-whole o=note:26
+92 OH sustain
+//! c=short i=staccato o=note:27
+93 OH staccato
+//! c=long i=note-whole o=note:28
+94 MM sustain
+//! c=short i=staccato o=note:29
+95 MM staccato
+
+
+
+//  Palette Melodics Brush-Pack
+//
+
+//! g="Red Room Audio/Palette" n="BP1 Violin Octaves"
+//! id=11111111-b4ee-df68-ac96-20bcfada5e91
+Bank 7 95 BP1 Violin Octaves
+//! c=legato i=legato o=note:95
+20  legato
+//! c=long i=note-whole o=note:96
+1   sustain
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=short-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+//! c=short-light i=spiccato o=note:100
+42  spiccato
+//! c=fx i=trill o=note:102
+70  trill m2
+//! c=fx i=trill-maj2 o=note:103
+71  trill M2
+
+//! g="Red Room Audio/Palette" n="BP1 Violin Octaves Con Sord."
+//! id=11111111-83d2-ae72-506f-44783ee8abb2
+Bank 7 96 BP1 Violin Octaves Con Sord.
+//! c=legato i=legato o=note:95
+20  legato
+//! c=long i=note-whole o=note:96
+1   sustain
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=short-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+
+//! g="Red Room Audio/Palette" n="BP1 Celli+Basses Octaves"
+//! id=11111111-06eb-02e2-23f6-3c8d49c97bf2
+Bank 7 97 BP1 Celli+Basses Octaves
+//! c=legato i=legato o=note:95
+20  legato
+//! c=long i=note-whole o=note:96
+1   sustain
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=short-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+//! c=short-light i=spiccato o=note:100
+42  spiccato
+
+//! g="Red Room Audio/Palette" n="BP1 Flutes+Piccolo Octaves"
+//! id=11111111-8fdb-92c4-84c9-d0b0c0e992c4
+Bank 7 98 BP1 Flutes+Piccolo Octaves
+//! c=legato i=legato o=note:95
+20  legato
+//! c=long i=note-whole o=note:96
+1   sustain
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=short-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+//! c=short-light i=staccato o=note:100
+42  staccatissimo
+//! c=fx i=rip o=note:104
+100 rip
+
+//! g="Red Room Audio/Palette" n="BP1 Oboe+Bassoon Octaves"
+//! id=11111111-856c-a3e6-b830-96a88b66e490
+Bank 7 99 BP1 Oboe+Bassoon Octaves
+//! c=legato i=legato o=note:95
+20 legato
+//! c=long i=note-whole o=note:96
+1   sustain
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=short-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+//! c=short-light i=staccato o=note:100
+42  staccatissimo
+//! c=fx i=rip o=note:104
+100 rip
+
+//! g="Red Room Audio/Palette" n="BP1 Bass Clar+Contrabassoon Octaves"
+//! id=11111111-19cd-81b4-2dac-c39827e2caa7
+Bank 7 100 BP1 Bass Clar+Contrabassoon Octaves
+//! c=legato i=legato o=note:95
+20  legato
+//! c=long i=note-whole o=note:96
+1   sustain
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=short-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+//! c=short-dark i=rip o=note:104
+100 rip
+
+//! g="Red Room Audio/Palette" n="BP1 Trumpets+Horns Octaves"
+//! id=11111111-9511-3061-44e1-4d92a2186a14
+Bank 7 101 BP1 Trumpets+Horns Octaves
+//! c=legato i=legato o=note:95
+20  legato
+//! c=long i=note-whole o=note:96
+1   sustain
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=short-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+//! c=short-light i=staccato o=note:100
+42  staccatissimo
+
+//! g="Red Room Audio/Palette" n="BP1 Tuba+Trombone Octaves"
+//! id=11111111-2a12-5ac8-cb5e-c7afa53d04aa
+Bank 7 102 BP1 Tuba+Trombone Octaves
+//! c=long i=note-whole o=note:96
+1   sustain
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=short-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+
+//! g="Red Room Audio/Palette" n="BP1 Horns"
+//! clone="Red Room Audio/Palette/BP1 Trumpets+Horns Octaves"
+//! id=11111111-ea54-287d-7e86-f1e333622e59
+Bank 7 103 BP1 Horns
+
+//! g="Red Room Audio/Palette" n="BP1 Trumpet Octaves"
+//! clone="Red Room Audio/Palette/BP1 Trumpets+Horns Octaves"
+//! id=11111111-3a23-0027-101f-fce56a136151
+Bank 7 104 BP1 Trumpet Octaves
+
+//! g="Red Room Audio/Palette" n="BP1 Low Brass + Low Strings"
+//! clone="Red Room Audio/Palette/BP1 Trumpets+Horns Octaves"
+//! id=11111111-9b62-f924-3901-fa5b40fb3cdd
+Bank 7 105 BP1 Low Brass + Low Strings
+
+//! g="Red Room Audio/Palette" n="BP1 Horns + Violins Octaves"
+//! clone="Red Room Audio/Palette/BP1 Trumpets+Horns Octaves"
+//! id=11111111-20f1-e049-a866-f8a15c130d20
+Bank 7 106 BP1 Horns + Violins Octaves
+
+//! g="Red Room Audio/Palette" n="BP1 Solo Violin"
+//! id=11111111-86db-7be7-eb70-0cc28da0a8a4
+Bank 7 107 BP1 Solo Violin
+//! c=legato i=legato o=note:95
+20  legato
+//! c=long i=note-whole o=note:96
+1   sustain
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=short-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+//! c=short-light i=spiccato o=note:100
+42  spiccato
+//! c=short-dark i=pizz o=note:101
+56  pizz
+//! c=fx i=trill o=note:102
+70  trill m2
+//! c=fx i=trill-maj2 o=note:103
+71  trill M2
+//! c=fx i=tremolo-measured o=note:108
+30  trem 16th
+
+//! g="Red Room Audio/Palette" n="BP1 Solo Cello"
+//! clone="Red Room Audio/Palette/BP1 Solo Violin"
+//! id=11111111-f984-3b8f-ffa1-aaad0510c117
+Bank 7 108 BP1 Solo Cello
+
+//! g="Red Room Audio/Palette" n="BP1 Solo Flute"
+//! id=11111111-d3c4-9103-82d5-c2a6f6fbb072
+Bank 7 109 BP1 Solo Flute
+//! c=legato i=legato o=note:95
+20  legato
+//! c=long i=note-whole o=note:96
+1   sustain
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=short-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+//! c=short-light i=staccato o=note:100
+42  staccatissimo
+//! c=fx i=trill o=note:102
+70  trill m2
+//! c=fx i=trill-maj2 o=note:103
+71  trill M2
+//! c=fx i=rip o=note:104
+100 rip
+//! c=fx i=multitongued o=note:106
+75  multitongue x2
+//! c=textured i=multitongued o=note:108
+77  multitongue x3
+
+
+//! g="Red Room Audio/Palette" n="BP1 Solo Oboe"
+//! id=11111111-dfd1-2084-5989-24ff0fa0562c
+Bank 7 110 BP1 Solo Oboe
+//! c=legato i=legato o=note:95
+20  legato
+//! c=long i=note-whole o=note:96
+1   sustain
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=short-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+//! c=short-light i=staccato o=note:100
+42  staccatissimo
+//! c=fx i=trill o=note:101
+70  trill m2
+//! c=fx i=trill-maj2 o=note:102
+71  trill M2
+//! c=fx i=multitongued o=note:106
+75  multitongue x2
+//! c=textured i=multitongued o=note:108
+77  multitongue x3
+
+//! g="Red Room Audio/Palette" n="BP1 Solo Trumpet"
+//! id=11111111-2d78-850d-0d1a-7e4c44fe09c2
+Bank 7 111 BP1 Solo Trumpet
+//! c=legato i=legato o=note:95
+20  legato
+//! c=long i=note-whole o=note:96
+1   sustain
+//! c=legato-dark i=note-half o=note:97
+55  marcato
+//! c=legato-dark i=marcato o=note:97/note:99
+54  marcato+stacc
+//! c=short-dark i=note-quarter o=note:98
+51  tenuto
+//! c=long-light i=accented-quarter o=note:98/note:99
+50  tenuto+stacc
+//! c=short i=staccato o=note:99
+40  staccato
+//! c=short-light i=staccato o=note:100
+42  staccatissimo
+//! c=fx i=trill o=note:102
+70  trill m2
+//! c=fx i=trill-maj2 o=note:103
+71  trill M2
+//! c=fx i=rip o=note:104
+100 rip
+//! c=fx i=fall o=note:105
+101 fall
+//! c=fx i=multitongued o=note:106
+75  multitongue x2
+//! c=textured i=multitongued o=note:108
+77  multitongue x3
+
+//! g="Red Room Audio/Palette" n="BP1 Solo Horn"
+//! clone="Red Room Audio/Palette/BP1 Solo Trumpet"
+//! id=11111111-b80b-ef4b-5d49-639a652f8427
+Bank 7 112 BP1 Solo Horn
+
+//----------------------------------------------------------------------------
+// AUDIO IMPERIA NUCLEUS
+// Source: Lenard Stockfisch (FishingForSound)
+// https://github.com/jtackaberry/reaticulate/issues/132
+//===========================================================================
+
+//! g="Audio Imperia/Nucleus/01 Soloists" n="01 Solo Violin"
+//! id=5e179c85-8590-41fd-a9a1-00478907d462
+Bank * * AI NCL Solo Violin
+//! c=legato i=legato o=note:12
+20 Legato
+//! c=long i=note-whole o=note:13
+1 Sustain
+
+//! g="Audio Imperia/Nucleus/01 Soloists" n="02 Solo Cello"
+//! clone="Audio Imperia/Nucleus/01 Soloists/01 Solo Violin"
+//! id=237964e8-8da1-40d0-948e-7c4ff106759f
+Bank * * AI NCL Solo Cello
+
+//! g="Audio Imperia/Nucleus/01 Soloists" n="03 Solo Flute"
+//! clone="Audio Imperia/Nucleus/01 Soloists/01 Solo Violin"
+//! id=c3bc0132-32fe-4eec-89dc-81252061512e
+Bank * * AI NCL Solo Flute
+
+//! g="Audio Imperia/Nucleus/01 Soloists" n="04 Solo Oboe"
+//! clone="Audio Imperia/Nucleus/01 Soloists/01 Solo Violin"
+//! id=0ed40491-9d33-4e0a-8bfd-c42e51723449
+Bank * * AI NCL Solo Oboe
+
+//! g="Audio Imperia/Nucleus/01 Soloists" n="05 Solo Trumpet"
+//! clone="Audio Imperia/Nucleus/01 Soloists/01 Solo Violin"
+//! id=ed270513-6cb8-411b-b485-79ac0b0209dd
+Bank * * AI NCL Solo Trumpet
+
+//! g="Audio Imperia/Nucleus/01 Soloists" n="06 Solo French Horn"
+//! clone="Audio Imperia/Nucleus/01 Soloists/01 Solo Violin"
+//! id=83bf348f-008b-411f-b4d4-cbcbe198483e
+Bank * * AI NCL Solo Horn
+
+//! g="Audio Imperia/Nucleus/02 Strings" n="01 16 Violins"
+//! id=befc57c5-8e10-4067-8d1c-b0bbca3c4264
+Bank * * AI NCL 16 Violins
+//!c=legato i=legato o=note:12
+20 Legato
+//! c=long i=note-whole o=note:13
+1 Sustained
+//!c=short i=spiccato o=note:14
+42 Spiccato
+//! c=short i=pizz o=note:15
+56 Pizzicato
+//!c=textured i=tremolo o=note:16
+11 Tremolo
+
+//! g="Audio Imperia/Nucleus/02 Strings" n="02 10 Violas"
+//! id=e6b89b01-270d-4fb4-9258-920930ab1f07
+Bank * * AI NCL 16 Violas
+//! c=long i=note-whole o=note:12
+1 Sustained
+//!c=short i=spiccato o=note:13
+42 Spiccato
+//! c=short i=pizz o=note:14
+56 Pizzicato
+//!c=textured i=tremolo o=note:15
+11 Tremolo
+
+//! g="Audio Imperia/Nucleus/02 Strings" n="03 6 Celli"
+//! clone="Audio Imperia/Nucleus/02 Strings/01 16 Violins"
+//! id=7dc754a9-25d5-45b1-bd67-4f14d6aaddad
+Bank * * AI NCL 6 Celli
+
+//! g="Audio Imperia/Nucleus/02 Strings" n="04 4 Basses"
+//! clone="Audio Imperia/Nucleus/02 Strings/02 10 Violas"
+//! id=f66d6f8f-4c6a-4539-aa04-08eee0709aed
+Bank * * AI NCL 4 Basses
+
+//! g="Audio Imperia/Nucleus/02 Strings" n="05 16Vlns + 10Vlas 8va"
+//! clone="Audio Imperia/Nucleus/02 Strings/02 10 Violas"
+//! id=af107ae8-4aa4-469e-ab0b-dac93abed608
+Bank * * AI NCL 16Vlns + 10Vlas 8va
+
+//! g="Audio Imperia/Nucleus/02 Strings" n="06 6Cll + 4DblBss 8va"
+//! clone="Audio Imperia/Nucleus/02 Strings/02 10 Violas"
+//! id=ce76ccd3-5dac-4d58-82ab-73adc388f7c9
+Bank * * AI NCL 6Cll + 4DblBss 8va
+
+//! g="Audio Imperia/Nucleus/02 Strings" n="07 Strings - Full Ens"
+//! clone="Audio Imperia/Nucleus/02 Strings/02 10 Violas"
+//! id=4462f10e-f231-4a39-acf6-23f06493cb07
+Bank * * AI NCL Full Ens
+
+//! g="Audio Imperia/Nucleus/03 Brass" n="01 3 Trumpets"
+//! id=8f555e48-c82c-48a5-bfcd-93918171f4e0
+Bank * * AI NCL 3 Trumpets
+//!c=legato i=legato o=note:12
+20 Legato
+//! c=long i=note-whole o=note:13
+1 Sustained
+//!c=short i=staccato o=note:14
+42 Staccatissimo
+
+//! g="Audio Imperia/Nucleus/03 Brass" n="02 6 French Horns"
+//! clone="Audio Imperia/Nucleus/03 Brass/01 3 Trumpets"
+//! id=8b2ae46b-14e9-49aa-872b-90a999e14c2e
+Bank * * AI NCL 6 French Horns
+
+//! g="Audio Imperia/Nucleus/03 Brass" n="03 4 Trombones"
+//! id=84051980-43cb-45e4-845d-edd2f0a66e70
+Bank * * AI NCL 4 Trombones
+//! c=long i=note-whole o=note:12
+1 Sustained
+//!c=short i=staccato o=note:13
+42 Staccatissimo
+
+//! g="Audio Imperia/Nucleus/03 Brass" n="04 2 Tubas"
+//! clone="Audio Imperia/Nucleus/03 Brass/03 4 Trombones"
+//! id=8782e227-ec2a-4fa9-b38a-82f77331ecb6
+Bank * * AI NCL 2 Tubas
+
+//! g="Audio Imperia/Nucleus/03 Brass" n="05 Low Brass"
+//! clone="Audio Imperia/Nucleus/03 Brass/03 4 Trombones"
+//! id=adb4cd6b-4b1a-4cc3-8187-81f56597875a
+Bank * * AI NCL Low Brass
+
+//! g="Audio Imperia/Nucleus/03 Brass" n="06 3Trmpts + 6FrnchHrns 8va"
+//! clone="Audio Imperia/Nucleus/03 Brass/01 3 Trumpets"
+//! id=22c78d1d-8551-41e0-aade-20712368d62d
+Bank * * AI NCL 3Trmpts + 6FrnchHrns 8va
+
+//! g="Audio Imperia/Nucleus/03 Brass" n="07 4Trmbns + 2Tbs 8va"
+//! clone="Audio Imperia/Nucleus/03 Brass/03 4 Trombones"
+//! id=f3e12955-5fac-4738-9831-d773f69f41e5
+Bank * * AI NCL 4Trmbns + 2Tbs 8va
+
+//! g="Audio Imperia/Nucleus/03 Brass" n="08 Brass Full Ens"
+//! clone="Audio Imperia/Nucleus/03 Brass/03 4 Trombones"
+//! id=9e617743-fc62-4f8c-9343-59f72bfce10f
+Bank * * AI NCL Full Brass
+
+//! g="Audio Imperia/Nucleus/04 Woodwinds" n="01 2 Flutes"
+//! id=248da85b-dc6e-444b-a9b5-69ad30cea803
+Bank * * AI NCL 2 Flutes
+//! c=long i=note-whole o=note:12
+1 Sustained
+//! c=short i=staccato o=note:13
+42 Staccatissimo
+//! c=fx i=trill-min2 o=note:14
+70 Trill Half Tone
+//! c=fx i=trill-maj2 o=note:15
+71 Trill Whole Tone
+
+//! g="Audio Imperia/Nucleus/04 Woodwinds" n="02 2 Oboes"
+//! clone="Audio Imperia/Nucleus/04 Woodwinds/01 2 Flutes"
+//! id=daac36de-0741-4c5e-a8db-724a3ecb01c2
+Bank * * AI NCL 2 Oboes
+
+//! g="Audio Imperia/Nucleus/04 Woodwinds" n="03 2 Clarinets"
+//! clone="Audio Imperia/Nucleus/04 Woodwinds/01 2 Flutes"
+//! id=8b2ea8d5-ce6f-4748-ade5-7ded97db7c6c
+Bank * * AI NCL 2 Clarinets
+
+//! g="Audio Imperia/Nucleus/04 Woodwinds" n="04 2 Bassoons"
+//! clone="Audio Imperia/Nucleus/04 Woodwinds/01 2 Flutes"
+//! id=9638227c-1526-44b3-baf2-681c4ff733a4
+Bank * * AI NCL 2 Bassoons
+
+//! g="Audio Imperia/Nucleus/04 Woodwinds" n="05 2Flts + 2Clrnts 8va"
+//! clone="Audio Imperia/Nucleus/04 Woodwinds/01 2 Flutes"
+//! id=efa184d5-ed40-4ee8-9e47-b39ebec641e1
+Bank * * AI NCL 2Flts + 2Clrnts 8va
+
+//! g="Audio Imperia/Nucleus/04 Woodwinds" n="06 2Clrnts + 2Bssns 8va"
+//! clone="Audio Imperia/Nucleus/04 Woodwinds/01 2 Flutes"
+//! id=5fe321f3-89e8-46b5-bd39-e922b9a3585b
+Bank * * AI NCL 2Clrnts + 2Bssns 8va
+
+//! g="Audio Imperia/Nucleus/04 Woodwinds" n="07 Woodwinds - Full Ensemble"
+//! clone="Audio Imperia/Nucleus/04 Woodwinds/01 2 Flutes"
+//! id=4168510e-a3f2-41cc-8d7e-57854d9d0f16
+Bank * * AI NCL Full Woodwinds
+
+//! g="Audio Imperia/Nucleus/05 Percussion" n="01 Timpani"
+//! id=9d301af4-3935-4319-a598-30fe76846a4c
+Bank * * AI NCL Timpani
+//! c=short i=staccato o=note:12
+1 Hits
+//! c=long i=tremolo o=note:13
+2 Sustained Roll
+//! c=fx i=crescendo o=note:14
+3 Crescendo Roll 1s
+//! c=fx i=crescendo o=note:15
+4 Crescendo Roll 2s
+//! c=fx i=crescendo o=note:16
+5 Crescendo Roll 3s
+
+//! g="Audio Imperia/Nucleus/06 Choir" n="01 5 Sopranos"
+//! id=8b18fcd9-0777-4e28-add8-084ed358e5b4
+Bank * * AI NCL 5 Sopranos
+//! c=long i=note-whole o=note:12
+1 Sustained Aah
+//! c=long i=note-whole o=note:13
+2 Sustained Ooh
+//! c=short i=staccato o=note:14
+3 Staccatissimo Phrases
+
+//! g="Audio Imperia/Nucleus/06 Choir" n="02 5 Altos"
+//! clone="Audio Imperia/Nucleus/06 Choir/01 5 Sopranos"
+//! id=38ed34cb-533a-422b-82dc-097c190d472e
+Bank * * AI NCL 5 Altos
+
+//! g="Audio Imperia/Nucleus/06 Choir" n="03 5 Tenors"
+//! clone="Audio Imperia/Nucleus/06 Choir/01 5 Sopranos"
+//! id=5f0c4640-08ec-45e1-88b3-e910acc1373c
+Bank * * AI NCL 5 Tenors
+
+//! g="Audio Imperia/Nucleus/06 Choir" n="04 5 Basses"
+//! clone="Audio Imperia/Nucleus/06 Choir/01 5 Sopranos"
+//! id=41dce8b0-1f88-4049-89ab-4a89aac914b8
+Bank * * AI NCL 5 Basses
+
+//! g="Audio Imperia/Nucleus/06 Choir" n="05 Choir - Full Ens"
+//! clone="Audio Imperia/Nucleus/06 Choir/01 5 Sopranos"
+//! id=65855357-99b4-4527-a9cd-e359d0d00231
+Bank * * AI NCL Full Choir
+
+//----------------------------------------------------------------------------
+// Audio Imperia - Solo
+// Source: Ugurcan Orcun - http://gameaud.io/
+// https://forum.cockos.com/showpost.php?p=2443412&postcount=1383
+//
+//!g="Audio Imperia/Solo" n="01 Strings Unified"
+//! id=0ce4025b-08ee-479e-ad34-3a40f1923727
+Bank * * Solo Violin/Viola/Cello
+//! c=#4A4A4A i=legato-bowed o=note:12 g=1
+12 Legato Rebowed
+//! c=#4A4A4A i=legato-portamento o=note:13 g=1
+13 Legato Slurred
+//! c=#3E3E3E i=note-whole o=note:14 g=1
+14 Sustained
+//! c=#747474 i=spiccato o=note:15 g=1
+15 Spiccato
+//! c=#747474 i=pizz o=note:16 g=1
+16 Pizzicato
+//! c=#3E3E3E i=tremolo o=note:17 g=1
+17 Tremolo
+//! c=#3E3E3E i=trill-min2 o=note:18 g=1
+18 Trill Half Tone
+//! c=#3E3E3E i=trill-maj2 o=note:19 g=1
+19 Trill Whole Tone
+
+//!g="Audio Imperia/Solo" n="02 Brass Unified"
+//! id=2e7747c0-b19c-4aa5-bfca-69775441a45f
+Bank * * Solo Trumpet/French/Descant Horn
+//! c=#4A4A4A i=legato-bowed o=note:12 g=1
+12 Legato Fingered
+//! c=#4A4A4A i=legato-portamento o=note:13 g=1
+13 Legato Retongued
+//! c=#3E3E3E i=note-whole o=note:14 g=1
+14 Sustained
+//! c=#747474 i=staccato o=note:15 g=1
+15 Staccatissimo
+
+//!g="Audio Imperia/Solo" n="03 Woodwinds Unified"
+//! id=c6f33af9-9c55-4069-a36f-fd6efd9c5ae0
+Bank * * Solo Flute/Clarinet/Oboe/Eng. Horn/Bassoon
+//! c=#4A4A4A i=legato-bowed o=note:12 g=1
+12 Legato Fingered
+//! c=#4A4A4A i=legato-portamento o=note:13 g=1
+13 Legato Retongued
+//! c=#3E3E3E i=note-whole o=note:14 g=1
+14 Sustained
+//! c=#747474 i=staccato o=note:15 g=1
+15 Staccatissimo
+//! c=#3E3E3E i=trill-min2 o=note:16 g=1
+16 Trill Half Tone
+//! c=#3E3E3E i=trill-maj2 o=note:17 g=1
+17 Trill Whole Tone
+
+//!g="Audio Imperia/Solo" n="04 Sopranos Unified"
+//! id=d0ef84c1-295f-42c0-a9c1-9dceae54238c
+Bank * * Solo Soprano Angelic/Operatic
+//! c=#4A4A4A i=phrase o=note:12 g=1
+12 Legato Aah
+//! c=#4A4A4A i=phrase o=note:13 g=1
+13 Legato Ooh
+//! c=#3E3E3E i=note-whole o=note:14 g=1
+14 Sustained Aah
+//! c=#3E3E3E i=note-whole o=note:15 g=1
+15 Sustained Ooh
+
+
+//----------------------------------------------------------------------------
+// JAEGER
+// Source: Lenard Stockfisch (FishingForSound)
+// https://github.com/jtackaberry/reaticulate/issues/132
+//===========================================================================
+
+//! g="Audio Imperia/Jaeger/Brass" n="01 - 3 Trumpets"
+//! id=11111111-a928-e3cc-383a-72b90607d8be
+Bank 29 63 AI JG 3 Trumpets
+//!c=legato i=legato o=note:12
+20 Legato
+//! c=long i=note-whole o=note:13
+1 Sustain
+//!c=short i=spiccato o=note:14
+42 Staccatissimo
+//!c=short i=staccato o=note:15
+41 Staccato
+//!c=short-light i=tenuto-quarter o=note:16
+44 Portato
+
+//! g="Audio Imperia/Jaeger/Brass" n="02 - 6 French Horns"
+//! id=11111111-3a1d-7b72-c16b-c15e4a09d4cc
+Bank 29 64 AI JG 6 French Horns
+//!c=legato i=legato o=note:12
+20 Legato
+//! c=long i=note-whole o=note:13
+1 Sustain
+//!c=short i=spiccato o=note:14
+42 Staccatissimo
+//!c=short i=staccato o=note:15
+41 Staccato
+//!c=short-light i=tenuto-quarter o=note:16
+44 Portato
+//!c=fx i=rip o=note:17
+100 Rip
+
+//! g="Audio Imperia/Jaeger/Brass" n="03 - 4 Trombones"
+//! id=11111111-d2a3-5aa4-43f9-a25dc688a6f5
+Bank 29 65 AI JG 4 Trombones
+//! c=long i=note-whole o=note:12
+1 Sustain
+//!c=short i=spiccato o=note:13
+42 Staccatissimo
+//!c=short i=staccato o=note:14
+41 Staccato
+
+//! g="Audio Imperia/Jaeger/Brass" n="04 - 2 Tubas"
+//! clone="Audio Imperia/Jaeger/Brass/03 - 4 Trombones"
+//! id=11111111-508e-c927-80ed-db0af82ee025
+Bank 29 66 AI JG 2 Tubas
+
+//! g="Audio Imperia/Jaeger/Brass" n="05 - 12 French Horns"
+//! id=11111111-7c5f-d116-71e1-d0b06ec75f35
+Bank 29 67 AI JG 12 French Horns
+//! c=long i=note-whole o=note:12
+1 Sustain
+//!c=short i=spiccato o=note:13
+42 Staccatissimo
+
+//! g="Audio Imperia/Jaeger/Brass" n="06 - Low Brass"
+//! clone="Audio Imperia/Jaeger/Brass/05 - 12 French Horns"
+//! id=11111111-f04b-fe68-b924-e6becf904c06
+Bank 29 68 AI JG Low Brass
+
+//! g="Audio Imperia/Jaeger/Brass" n="07 - 3 Trmpts + 6 FrnchHrns 8va"
+//! clone="Audio Imperia/Jaeger/Brass/01 - 3 Trumpets"
+//! id=11111111-1bac-8fc5-0cd2-872e12656be5
+Bank 29 69 AI JG 3Trmpts + 6FrnchHrns
+
+//! g="Audio Imperia/Jaeger/Brass" n="08 - 4 Trmbns + 2 Tbs 8va"
+//! clone="Audio Imperia/Jaeger/Brass/03 - 4 Trombones"
+//! id=11111111-d6f0-e6b1-e12e-829ad1867cff
+Bank 29 70 AI JG 4Trmbns + 2Tbs
+
+//! g="Audio Imperia/Jaeger/Brass" n="09 - Brass - Full Ens"
+//! clone="Audio Imperia/Jaeger/Brass/03 - 4 Trombones"
+//! id=11111111-38e3-d994-7887-c471773a6639
+Bank 29 71 AI JG Brass - Full Ens
+
+//! g="Audio Imperia/Jaeger/Strings" n="01 - 16 Violins"
+//! id=11111111-73e6-46c5-ba95-e3557f29a903
+Bank 29 72 AI JG Strings - 16 Violins
+//!c=legato i=legato o=note:12
+20 Legato
+//! c=long i=note-whole o=note:13
+1 Sustain
+//!c=textured i=tremolo o=note:14
+11 Tremolo
+//!c=short i=spiccato o=note:15
+42 Spiccato
+//!c=short i=staccato o=note:16
+41 Staccato
+//!c=short-light i=tenuto-quarter o=note:17
+44 Portato
+//! c=short-light i=col-legno o=note:18
+58 Col Legno
+//! c=short-light i=pizz-bartok o=note:19
+57 Bartok Pizzicato
+
+//! g="Audio Imperia/Jaeger/Strings" n="02 - 10 Violas"
+//! clone="Audio Imperia/Jaeger/Strings/01 - 16 Violins"
+//! id=11111111-b114-34df-c016-552781964fbc
+Bank 29 73 AI JG Strings - 10 Violas
+
+//! g="Audio Imperia/Jaeger/Strings" n="03 - 6 Celli"
+//! clone="Audio Imperia/Jaeger/Strings/01 - 16 Violins"
+//! id=11111111-8053-96e2-8cc6-4b89ecdb8eec
+Bank 29 74 AI JG Strings - 6 Celli
+
+//! g="Audio Imperia/Jaeger/Strings" n="04 - 4 Double Basses"
+//! id=11111111-cd94-0641-e314-98b087a6a446
+Bank 29 75 AI JG Strings - 4 Double Basses
+//! c=long i=note-whole o=note:12
+1 Sustain
+//!c=textured i=tremolo o=note:13
+11 Tremolo
+//!c=short i=spiccato o=note:14
+42 Spiccato
+//!c=short i=staccato o=note:15
+41 Staccato
+//!c=short-light i=tenuto-quarter o=note:16
+44 Portato
+//! c=short-light i=col-legno o=note:17
+58 Col Legno
+//! c=short-light i=pizz-bartok o=note:18
+57 Bartok Pizzicato
+
+//! g="Audio Imperia/Jaeger/Strings" n="05 - 16Vlns + 10Vlas 8va"
+//! clone="Audio Imperia/Jaeger/Strings/01 - 16 Violins"
+//! id=11111111-72d2-a73f-f778-902c4320f152
+Bank 29 76 AI JG Strings - 16Vlns + 10Vlas 8va
+
+//! g="Audio Imperia/Jaeger/Strings" n="06 - 6Cll + 4DblBss 8va"
+//! clone="Audio Imperia/Jaeger/Strings/04 - 4 Double Basses"
+//! id=11111111-281e-5da9-c279-a70f93a89d33
+Bank 29 77 AI JG Strings - 6Cll + 4DblBss 8va
+
+//! g="Audio Imperia/Jaeger/Strings" n="07 - Strings Full Ens"
+//! clone="Audio Imperia/Jaeger/Strings/04 - 4 Double Basses"
+//! id=11111111-b50b-d326-ea61-ca6c247d7a23
+Bank 29 78 AI JG Strings - Full Ens
+
+//! g="Audio Imperia/Jaeger/Vocals" n="01 Vocals by Merethe Soltvedt"
+//! id=11111111-5a8b-0935-8412-2908a47f79d7
+Bank 29 79 AI JG Vocals
+//! c=legato-dark i=legato o=note:12
+20 Legato Aah
+//!c=long-dark i=note-whole o=note:13
+1 Sustained Aah
+//!c=legato i=legato o=note:14
+21 Legato Ooh
+//!c=long i=note-whole o=note:15
+2 Sustained Ooh
+//!c=legato-light i=legato o=note:16
+22 Legato Mmm
+//! c=long-light i=note-whole o=note:17
+3 Sustained Mmm
+
+//----------------------------------------------------------------------------
+// AUDIO IMPERIA TALOS
+// Source: Lenard Stockfisch (FishingForSound)
+// https://github.com/jtackaberry/reaticulate/issues/132
+//===========================================================================
+
+//! g="Audio Imperia/Talos" n="01 12 French Horns"
+//! id=11111111-af03-5249-8553-bea70bd5ea28
+Bank 30 6 AI Tls 12 Horns
+//!c=legato i=legato o=note:12
+20 Legato
+//! c=long i=note-whole o=note:13
+1 Sustain
+//! c=short-dark i=marcato-half o=note:14
+55 Marcarto Long
+//! c=short-dark i=marcato-quarter o=note:15
+52 Marcarto Short
+//!c=short i=staccato o=note:16
+41 Staccato
+//!c=short i=spiccato o=note:17
+42 Staccatissimo
+//!c=textured i=multitongued o=note:18
+75 Double Tongue
+//!c=textured i=multitongued o=note:19
+77 Tripple Tongue
+//!c=textured i=multitongued o=note:20
+78 Quadruple Tongue
+//!c=fx i=rip o=note:21
+100 Rip
+//!c=fx i=rip-downward o=note:22
+101 Bend
+
+//! g="Audio Imperia/Talos" n="02 Low Brass"
+//! id=11111111-843b-b017-ff24-1687c8245c92
+Bank 30 7 AI Tls Low Brass
+//! c=long i=note-whole o=note:12
+1 Sustain
+//! c=short-dark i=marcato-half o=note:13
+55 Marcarto Long
+//! c=short-dark i=marcato-quarter o=note:14
+52 Marcarto Short
+//!c=short i=staccato o=note:15
+41 Staccato
+//!c=short i=spiccato o=note:16
+42 Staccatissimo
+//!c=fx i=rip o=note:17
+100 Rip
+//!c=fx i=rip-downward o=note:18
+101 Bend
+//!c=textured i=cresc-half o=note:19
+102 Crescendo Long
+//!c=textured i=cresc-quarter o=note:20
+106 Crescendo Short
+//!c=long i=alt-wave-double o=note:21
+11 Sustained Flutter Tongue
+//!c=textured i=cresc-half o=note:22
+107 Crescendo Long Fluttertongue
+//!c=textured i=cresc-quarter o=note:23
+108 Crescendo Short Fluttertongue
+
+//----------------------------------------------------------------------------
+// Native Instruments/Session Horns Pro
+// Source bradleybboone: https://github.com/jtackaberry/reaticulate/issues/17
+// 
+
+//----------------------------------------------------------------------------
+// Create custom 2 channel multis in Kontakt with 2 tracks per instrument to access all available articulations for solo instruments in Session Horns Pro.
+// Load the articulations sequentially in the Main>Keyswitches Menu from C-1 to G#-1 in Channel 1, and continue from C-1 on Channel 2.
+// I recommend saving these custom multis for quick reloading in future projects.
+
+//----------------------------------------------------------------------------
+//! g="Native Instruments/Session Horns Pro/Solo Instruments" n="Alto Sax Custom Multi"
+//! m="Two channel patches, Dynamic control w CC11"
+//! id=11111111-7684-36c4-d24a-2a8d384d83b4
+Bank 23 74 NISHP Alto Sax Custom Multi
+//! c=long i=note-whole o=note@1:12
+1 sustain
+//! c=long i=vibrato o=note@1:13
+16 vibrato
+//! c=short i=marcato-half o=note@1:14
+55 marcato long
+//! c=short i=marcato o=note@1:15
+52 marcato medium
+//! c=short i=staccato o=note@1:16
+40 staccato
+//! c=short i=staccatissimo-stopped o=note@1:17
+42 staccatissimo
+//! c=short i=rip o=note@1:18
+100 rips
+//! c=long i=acciaccatura-quarter o=note@1:19
+77 grace
+//! c=long i=acciaccatura-quarter o=note@1:20
+78 grace vibrato
+//! c=long i=crescendo o=note@2:12
+106 fp 2beat
+//! c=long i=crescendo o=note@2:13
+107 fp 4beat
+//! c=long i=tremolo-measured o=note@2:14
+11 growl
+//! c=long i=tremolo-measured o=note@2:15
+14 growl vibrato
+//! c=long i=trill-min2 o=note@2:16
+70 trill m2
+//! c=long i=trill-maj2 o=note@2:17
+71 trill M2
+
+//! g="Native Instruments/Session Horns Pro/Solo Instruments" n="Baritone Sax Custom Multi"
+//! m="Two channel patches, Dynamic control w CC11"
+//! clone="Native Instruments/Session Horns Pro/Solo Instruments/Alto Sax Custom Multi"
+//! id=11111111-5c5c-5895-0417-a55e3184b0ec
+Bank 23 75 NISHP Baritone Sax Custom Multi
+
+//! g="Native Instruments/Session Horns Pro/Solo Instruments" n="Bass Trombone Custom Multi"
+//! m="Two channel patches, Dynamic control w CC11"
+//! id=11111111-0748-56b4-b339-ba9bdb530196
+Bank 23 76 NISHP Bass Trombone Custom Multi
+//! c=long i=note-whole o=note@1:12
+1 sustain
+//! c=long i=vibrato o=note@1:13
+16 vibrato
+//! c=short i=marcato-half o=note@1:14
+55 marcato long
+//! c=short i=marcato o=note@1:15
+52 marcato medium
+//! c=short i=staccato o=note@1:16
+40 staccato
+//! c=short i=staccatissimo-stopped o=note@1:17
+42 staccatissimo
+//! c=short i=rip o=note@1:18
+100 rips
+//! c=long i=acciaccatura-quarter o=note@1:19
+77 grace
+//! c=long i=acciaccatura-quarter o=note@1:20
+78 grace vibrato
+//! c=long i=crescendo o=note@2:12
+106 fp 2beat
+//! c=long i=crescendo o=note@2:13
+107 fp 4beat
+//! c=long i=tremolo-measured o=note@2:14
+11 growl
+//! c=long i=tremolo-measured o=note@2:15
+14 growl vibrato
+//! c=long i=vibrato-molto o=note@2:16
+90 shake
+
+//! g="Native Instruments/Session Horns Pro/Solo Instruments" n="Flugelhorn Custom Multi"
+//! m="Two channel patches, Dynamic control w CC11"
+//! clone="Native Instruments/Session Horns Pro/Solo Instruments/Bass Trombone Custom Multi"
+//! id=11111111-07c1-6492-a808-b8ed340a5491
+Bank 23 77 NISHP Flugelhorn Custom Multi
+
+//! g="Native Instruments/Session Horns Pro/Solo Instruments" n="Mute Trumpet Custom Multi"
+//! m="Two channel patches, Dynamic control w CC11"
+//! clone="Native Instruments/Session Horns Pro/Solo Instruments/Bass Trombone Custom Multi"
+//! id=11111111-9460-47c4-9835-b214d8d47e41
+Bank 23 78 NISHP Mute Trumpet Custom Multi
+
+//! g="Native Instruments/Session Horns Pro/Solo Instruments" n="Tenor Sax Custom Multi"
+//! m="Two channel patches, Dynamic control w CC11"
+//! clone="Native Instruments/Session Horns Pro/Solo Instruments/Alto Sax Custom Multi"
+//! id=11111111-4720-4405-700c-25fd86b50cbd
+Bank 23 79 NISHP Tenor Sax Custom Multi
+
+//! g="Native Instruments/Session Horns Pro/Solo Instruments" n="Tenor Trombone Custom Multi"
+//! m="Two channel patches, Dynamic control w CC11"
+//! clone="Native Instruments/Session Horns Pro/Solo Instruments/Bass Trombone Custom Multi"
+//! id=11111111-defa-8c72-26d8-a2170710aa19
+Bank 23 80 NISHP Tenor Trombone Custom Multi
+
+//! g="Native Instruments/Session Horns Pro/Solo Instruments" n="Trumpet 1 Custom Multi"
+//! m="Two channel patches, Dynamic control w CC11"
+//! clone="Native Instruments/Session Horns Pro/Solo Instruments/Bass Trombone Custom Multi"
+//! id=11111111-5629-83c2-8470-a28681e47e90
+Bank 23 81 NISHP Trumpet 1 Custom Multi
+
+//! g="Native Instruments/Session Horns Pro/Solo Instruments" n="Trumpet 2 Custom Multi"
+//! m="Two channel patches, Dynamic control w CC11"
+//! clone="Native Instruments/Session Horns Pro/Solo Instruments/Bass Trombone Custom Multi"
+//! id=11111111-89c2-d86c-8d77-d7e3b9c5babd
+Bank 23 82 NISHP Trumpet 2 Custom Multi
+
+//! g="Native Instruments/Session Horns Pro/Solo Instruments" n="Tuba Custom Multi"
+//! m="Two channel patches, Dynamic control w CC11"
+//! clone="Native Instruments/Session Horns Pro/Solo Instruments/Bass Trombone Custom Multi"
+//! id=11111111-9cb2-eb73-74b4-11594c395238
+Bank 23 83 NISHP Tuba Custom Multi
+
+//! g="Native Instruments/Session Horns Pro/Ensemble" n="Keyswitch Custom Multi"
+//! m="Two channel patches, Dynamic control w CC11"
+//! id=11111111-2d5d-fd08-8091-f9ea3e373b80
+Bank 23 84 NISHP Keyswitch Custom Multi
+//! c=long i=note-whole o=note@1:12
+1 sustain
+//! c=long i=vibrato o=note@1:13
+16 vibrato
+//! c=short i=marcato-half o=note@1:14
+55 marcato long
+//! c=short i=marcato o=note@1:15
+52 marcato medium
+//! c=short i=staccato o=note@1:16
+40 staccato
+//! c=short i=staccatissimo-stopped o=note@1:17
+42 staccatissimo
+//! c=short i=rip o=note@1:18
+100 rips
+//! c=long i=acciaccatura-quarter o=note@1:19
+77 grace
+//! c=long i=acciaccatura-quarter o=note@1:20
+78 grace vibrato
+//! c=long i=crescendo o=note@2:12
+106 fp 2beat
+//! c=long i=crescendo o=note@2:13
+107 fp 4beat
+//! c=long i=tremolo-measured o=note@2:14
+11 growl
+//! c=long i=tremolo-measured o=note@2:15
+14 growl vibrato
+//! c=long i=vibrato-molto o=note@2:16
+90 shake
+//! c=long i=trill-min2 o=note@2:17
+70 trill m2
+//! c=long i=trill-maj2 o=note@2:18
+71 trill M2
+
+//----------------------------------------------------------------------------
+// Kirk Hunter Diamond Orchestra
+//
+
+//! g="Kirk Hunter/Diamond Orchestra/Strings" n="1st Violins 18,9,4,1 Players All Articulations TVEC4"
+//! id=f547d30d-0faf-4638-9bd6-7ed82b42e514
+Bank * * KH DO Strings - 1st Violins
+
+//!c=legato i=legato o=note:12/cc:18,127
+20 Legato
+//! c=long i=note-whole o=note:12/cc:18,0
+1 Sustain
+//!c=textured i=tremolo o=note:14
+11 Tremolo
+//!c=short i=spiccato o=note:15
+42 Spiccato
+//!c=long-light i=harmonics o=note:15
+29 Harmonics
+//!c=short i=pizz o=note:16
+56 Pizzicato
+//! c=short-light i=pizz-bartok o=note:19
+57 Bartok Pizzicato
+//! c=long i=light o=note:13
+9 Adagio-legato
+//! c=long i=light o=note:13
+10 Adagio-sustain
+//! c=long-light i=portato o=note:15
+53 Accent PP
+//! c=long i=portato o=note:16
+52 Accent MF
+//! c=long-dark i=portato o=note:17
+54 Accent FF
+//! c=fx i=trill o=note:102
+70  trill m2
+//! c=fx i=trill-maj2 o=note:103
+71  trill M2
+
+
+//! g="Aria/Aurora Choir" n="Aurora Choir"
+//! id=b3ff96f9-03d3-406d-9b57-8331ee43a8ca
+Bank * * Aria Aurora Choir
+//! c=legato-dark i=legato o=note:24/note:28
+20 Legato Ah
+//! c=long-dark i=note-whole o=note:25/note:28
+1 Sustained Ah
+//!c=legato i=legato o=note:24/note:29
+21 Legato Eh
+//! c=long i=note-whole o=note:25/note:29
+2 Sustained Eh
+//!c=legato-light i=legato o=note:24/note:30
+22 Legato Ih
+//! c=long-light i=note-whole o=note:25/note:30
+3 Sustained Ih
+//!c=legato-dark i=legato o=note:24/note:31
+23 Legato Oh
+//! c=long-dark i=note-whole o=note:25/note:31
+4 Sustained Oh
+//! c=short-light i=note-short o=note:26
+40 Sequence
+
+//----------------------------------------------------------------------------
+// ORCHESTRAL TOOLS BERLIN WOODWINDS
+// Source: daeavelwyn - https://forum.cockos.com/showpost.php?p=2149051&postcount=500
+//
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="Piccolo"
+//! m=""
+//! id=bdb262cf-ed05-45ee-be49-f3c4443e630b
+Bank * * OT-BW - Piccolo
+//! c=legato i=note-whole o=note:24
+1 Sustain romantic vib - C1
+//! c=legato i=note-whole  o=note:25
+2 Sustain whitout vib - C#1
+//! c=short-dark i=staccato o=note:26
+3 Staccato - D1
+//! c=short-dark i=spiccato o=note:27
+4 Staccato short - D#1
+//! c=short i=trill o=note:28
+5 Measured Trills +2 - E1
+//! c=short i=trill-min2 o=note:29
+6 Trills+1 - F1
+//! c=short i=trill-maj2 o=note:30
+7 Trills+2 - F#1
+//! c=short-light i=dblstop-5th-eighth o=note:31
+8 Doubles - G1
+//! c=short-light i=run-minor o=note:32
+9 Triples - G#1
+//! c=long-dark i=tenuto-eighth o=note:33
+10 Portato Short - A1
+//! c=long-dark i=tenuto-quarter o=note:34
+11 Portato Long- A#1
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="Flute1"
+//! m=""
+//! id=1727ec4d-71cf-4233-9229-7ee20e9bac3a
+Bank * * OT-BW - Flute1
+//! c=legato i=note-whole o=note:24
+1 Sustain romantic vib - C1
+//! c=legato i=note-whole  o=note:25
+2 Sustain expressivo vib - C#1
+//! c=short-dark i=staccato o=note:26
+3 Staccato - D1
+//! c=short-dark i=spiccato o=note:27
+4 Staccato short - D#1
+//! c=long-dark i=tenuto-eighth o=note:28
+5 Portato Short - E1
+//! c=short i=trill-min2 o=note:29
+6 Trills+1 - F1
+//! c=short i=trill-maj2 o=note:30
+7 Trills+2 - F#1
+//! c=short i=trill o=note:31
+8 Measured Trills +1 - G1
+//! c=short-light i=dblstop-5th-eighth o=note:34
+11 Doubles - A#1
+//! c=short-light i=run-minor o=note:35
+12 Triples - B1
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="Flute2"
+//! m=""
+//! id=631e35b7-258f-4099-8577-4ef103fba27c
+Bank * * OT-BW - Flute2
+//! c=legato i=note-whole o=note:24
+1 Sustain romantic vib - C1
+//! c=legato i=note-whole  o=note:25
+2 Sustain expressivo vib - C#1
+//! c=short-dark i=staccato o=note:26
+3 Staccato - D1
+//! c=short-dark i=spiccato o=note:27
+4 Staccato short - D#1
+//! c=long-dark i=tenuto-eighth o=note:28
+5 Portato Short - E1
+//! c=short i=trill-min2 o=note:29
+6 Trills+1 - F1
+//! c=short i=trill-maj2 o=note:30
+7 Trills+2 - F#1
+//! c=short-light i=dblstop-5th-eighth o=note:31
+8 Doubles - G1
+//! c=short-light i=run-minor o=note:32
+9 Triples - G#1
+//! c=short i=trill o=note:33
+10 Measured Trills +1 - A1
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="Oboe1"
+//! m=""
+//! id=5c416b6b-c831-4b12-bb61-707cefbd205a
+Bank * * OT-BW - Oboe1
+//! c=legato i=note-whole o=note:24
+1 Sustain romantic vib - C1
+//! c=legato i=note-whole  o=note:25
+2 Sustain without vib - C#1
+//! c=short-dark i=staccato o=note:26
+3 Staccato - D1
+//! c=short-dark i=spiccato o=note:27
+4 Staccato short - D#1
+//! c=long-dark i=tenuto-eighth o=note:28
+5 Portato Short - E1
+//! c=short i=trill-min2 o=note:29
+6 Trills+1 - F1
+//! c=short i=trill-maj2 o=note:30
+7 Trills+2 - F#1
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="Oboe2"
+//! m=""
+//! id=d5b3a09f-cf51-4ffb-90ce-a0c876db9bb5
+Bank * * OT-BW - Oboe2
+//! c=legato i=note-whole o=note:24
+1 Sustain romantic vib - C1
+//! c=legato i=note-whole  o=note:25
+2 Sustain without vib - C#1
+//! c=short-dark i=staccato o=note:26
+3 Staccato - D1
+//! c=short-dark i=spiccato o=note:27
+4 Staccato short - D#1
+//! c=long-dark i=tenuto-eighth o=note:28
+5 Portato Short - E1
+//! c=short i=trill-min2 o=note:29
+6 Trills+1 - F1
+//! c=short i=trill-maj2 o=note:30
+7 Trills+2 - F#1
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="English Horn"
+//! m=""
+//! id=e677f9aa-5351-4d85-919c-e8e1dcfc808e
+Bank * * OT-BW - English Horn
+//! c=legato i=note-whole o=note:24
+1 Sustain romantic vib - C1
+//! c=legato i=note-whole  o=note:25
+2 Sustain without vib - C#1
+//! c=short-dark i=staccato o=note:26
+3 Staccato - D1
+//! c=long-dark i=tenuto-eighth o=note:28
+5 Portato Short - E1
+//! c=short i=trill-min2 o=note:29
+6 Trills+1 - F1
+//! c=short i=trill-maj2 o=note:30
+7 Trills+2 - F#1
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="Clarinet1"
+//! m=""
+//! id=ffffe8da-046c-4c70-84ce-a10f0b4000dd
+Bank * * OT-BW - Clarinet1
+//! c=legato i=note-whole o=note:24
+1 Sustain romantic vib - C1
+//! c=short-dark i=staccato o=note:26
+3 Staccato - D1
+//! c=short-dark i=spiccato o=note:27
+4 Staccato short - D#1
+//! c=long-dark i=tenuto-eighth o=note:28
+5 Portato Short - E1
+//! c=short i=trill-min2 o=note:29
+6 Trills+1 - F1
+//! c=short i=trill-maj2 o=note:30
+7 Trills+2 - F#1
+//! c=short-light i=dblstop-5th-eighth o=note:31
+8 Doubles - G1
+//! c=short-light i=run-minor o=note:32
+9 Triples - G#1
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="Clarinet2"
+//! m=""
+//! id=8cecc87e-962b-46bd-839c-65f1044a5290
+Bank * * OT-BW - Clarinet2
+//! c=legato i=note-whole o=note:24
+1 Sustain romantic vib - C1
+//! c=short-dark i=staccato o=note:26
+3 Staccato - D1
+//! c=short-dark i=spiccato o=note:27
+4 Staccato short - D#1
+//! c=long-dark i=tenuto-eighth o=note:28
+5 Portato Short - E1
+//! c=short i=trill-min2 o=note:29
+6 Trills+1 - F1
+//! c=short i=trill-maj2 o=note:30
+7 Trills+2 - F#1
+//! c=short-light i=dblstop-5th-eighth o=note:31
+8 Doubles - G1
+//! c=short-light i=run-minor o=note:32
+9 Triples - G#1
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="Bassoon"
+//! m=""
+//! id=0edbe00a-91a4-4223-8085-6c7a7f790830
+Bank * * OT-BW - Bassoon
+//! c=legato i=note-whole o=note:96
+1 Sustain romantic vib - C7
+//! c=legato i=note-whole  o=note:97
+2 Sustain without vib - C#7
+//! c=short-dark i=staccato o=note:98
+3 Staccato - D7
+//! c=long-dark i=tenuto-eighth o=note:100
+5 Portato Short - E7
+//! c=short i=trill-min2 o=note:101
+6 Trills+1 - F7
+//! c=short i=trill-maj2 o=note:102
+7 Trills+2 - F#7
+//! c=short-light i=dblstop-5th-eighth o=note:103
+8 Doubles - G7
+//! c=short-light i=run-minor o=note:104
+9 Triples - G#7
+
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="Extras"
+//! m="Berlin Woodwinds common CC messages"
+//! id=4eec8ff6-1de8-4ec1-a32f-ccaeda741f4c
+Bank * * OT-BW - Extras
+//! c=default i=legato g=1 o=cc:30,127
+1 Legato On
+//! c=default i=legato g=1 o=cc:30,0
+2 Legato Off
+//! c=default i=crescendo g=3 o=cc:52,127
+3 Niente On
+//! c=default i=crescendo g=3 o=cc:52,0
+4 Niente Off
+//! c=default i=fx g=4 o=cc:53,127
+5 Soft Layer On
+//! c=default i=fx g=4 o=cc:53,0
+6 Soft Layer Off
+
+//! g="Orchestral Tools/Berlin Woodwinds" n="Extras 2"
+//! m="Berlin Woodwinds common CC messages"
+//! id=3dfad057-fe75-463b-bb2f-f68dc9682849
+Bank * * OT-BW - Extras 2
+//! c=default i=fx o=cc:54,127
+9 Cutoff Filter On
+//! c=default i=fx o=cc:54,0
+10 Cutoff Filter Off
+
+//----------------------------------------------------------------------------
+// ORCHESTRAL TOOLS METROPOLIS ARK 1
+// Source bradleybboone: https://github.com/jtackaberry/reaticulate/issues/17
+//
+//----------------------------------------------------------------------------
+//! g="Orchestral Tools/Metropolis Ark 1" n="Kommandanten Trumpets a4 Multi"
+//! id=4cd4d743-0dab-479d-bdab-98075a17b7f8
+Bank * * OTMA1 Kommandanten Trumpets a4
+//! c=long i=note-whole o=note:24
+1 sustain
+//! c=short i=marcato-half o=note:25
+55 marcato long
+//! c=short i=marcato-quarter o=note:26
+52 marcato short
+//! c=short i=staccato o=note:27
+40 staccato
+//! c=fx i=staccato o=note:28
+62 staccato cluster
+//! c=fx i=crescendo o=note:29
+90 cluster crescendo long
+//! c=fx i=crescendo o=note:30
+91 cluster crescendo short
+//! c=long i=crescendo o=note:31
+102 crescendo long
+//! c=long i=crescendo o=note:32
+106 crescendo short
+//! c=long i=crescendo o=note:33
+107 swell
+//! c=fx i=crescendo o=note:34
+109 cresc fluttertongue
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Schwarzdorn Horns a9 Multi"
+//! id=2e2f64c7-29fe-4083-936d-85b43cd07dc6
+Bank * * OTMA1 Schwarzdorn Horns a9
+//! c=long i=note-whole o=note:96
+1 sustain
+//! c=short i=marcato-half o=note:97
+55 marcato long
+//! c=short i=marcato-quarter o=note:98
+52 marcato short
+//! c=short i=staccato o=note:99
+40 staccato
+//! c=short i=rip o=note:100
+100 octave rips
+//! c=long i=crescendo o=note:101
+102 crescendo long
+//! c=long i=crescendo o=note:102
+106 crescendo short
+//! c=long i=crescendo o=note:103
+107 swell long
+//! c=long i=crescendo o=note:104
+108 swell short
+//! c=fx i=crescendo o=note:105
+109 cresc fluttertongue
+//! c=fx i=crescendo o=note:106
+90 cluster crescendo long
+//! c=fx i=crescendo o=note:107
+91 cluster crescendo short
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Schwarzdorn Horns a9 Legato"
+//! id=9da9e198-1ff4-4ed9-a922-86481e58421a
+Bank * * OTMA1 Schwarzdorn Horns a9 Legato
+//! c=legato i=legato o=@2
+20 legato
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Rotdorn Horns a3 Multi"
+//! id=059336e4-f8a8-4716-b444-ce2838707487
+Bank * * OTMA1 Rotdorn Horns a3
+//! c=long i=note-whole o=note:96
+1 sustain
+//! c=short i=marcato-half o=note:97
+55 marcato long
+//! c=short i=marcato-quarter o=note:98
+52 marcato short
+//! c=short i=staccato o=note:99
+40 staccato
+//! c=long i=crescendo o=note:100
+102 crescendo long
+//! c=long i=crescendo o=note:101
+106 crescendo short
+//! c=long i=crescendo o=note:102
+107 swell long
+//! c=long i=crescendo o=note:103
+108 swell short
+//! c=fx i=crescendo o=note:104
+109 cresc fluttertongue
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Friedrich Bass Trombones a3 Multi"
+//! id=1631659c-df63-4345-bdce-d87a3f30f1e6
+Bank * * OTMA1 Friedrich Bass Trombones a3
+//! c=long i=note-whole o=note:96
+1 sustain
+//! c=short i=marcato-half o=note:97
+55 marcato long
+//! c=short i=marcato-quarter o=note:98
+52 marcato short
+//! c=short i=staccato o=note:99
+40 staccato
+//! c=long i=crescendo o=note:100
+102 crescendo long
+//! c=long i=crescendo o=note:101
+106 crescendo short
+//! c=long i=crescendo o=note:102
+107 swell long
+//! c=long i=crescendo o=note:103
+108 swell short
+//! c=fx i=crescendo o=note:104
+109 cresc fluttertongue
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Koenigsberger Cimbassi a3 Multi"
+//! id=6c9d10af-ee20-4b0b-914d-b2fbbfb279fb
+Bank * * OTMA1 Koenigsberger Cimbassi a3
+//! c=long i=note-whole o=note:96
+1 sustain
+//! c=short i=marcato-half o=note:97
+55 marcato long
+//! c=short i=marcato-quarter o=note:98
+52 marcato short
+//! c=short i=staccato o=note:99
+40 staccato
+//! c=long i=crescendo o=note:100
+102 crescendo long
+//! c=long i=crescendo o=note:101
+106 crescendo short
+//! c=fx i=crescendo o=note:102
+109 cresc fluttertongue
+//! c=long i=crescendo o=note:103
+107 swell long
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Hindenburg Tubas a3 Multi"
+//! id=a09e0a5d-3694-446e-b6f1-26b7233ff3a1
+Bank * * OTMA1 Hindenburg Tubas a3
+//! c=long i=note-whole o=note:96
+1 sustain
+//! c=short i=marcato-half o=note:97
+55 marcato long
+//! c=short i=marcato-quarter o=note:98
+52 marcato short
+//! c=short i=staccato o=note:99
+40 staccato
+//! c=long i=crescendo o=note:100
+102 crescendo long
+//! c=long i=crescendo o=note:101
+106 crescendo short
+//! c=fx i=crescendo o=note:102
+109 cresc fluttertongue
+//! c=long i=crescendo o=note:103
+107 swell long
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Aarauer Choir (Low) Multi"
+//! id=42189a97-9f14-40c1-8016-7ba05864d832
+Bank * * OTMA1 Aarauer Choir Multi
+//! c=long i=note-whole o=note:24
+1 sustain
+//! c=short i=marcato-half o=note:25
+55 marcato long
+//! c=short i=marcato-quarter o=note:26
+52 marcato short
+//! c=short i=staccato o=note:27
+40 staccato
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Choir Men Legato"
+//! id=23eeda65-5bf3-4d08-a1b2-8bf5f77eca73
+Bank * * OTMA1 Choir Men Legato
+//! c=legato i=legato o=@2
+20 legato
+//! c=long i=note-whole o=note:0
+1 sustain pedal
+//! c=short i=note-quarter o=note:21
+40 rr reset
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Choir Men Gliss/FX"
+//! id=f8848969-c9a8-499e-b4f6-b7a6f0eeadb8
+Bank * * OTMA1 Choir Men Gliss/FX
+//! c=fx i=fx o=@3
+31 gliss
+//! c=long i=note-whole o=note:0
+1 sustain pedal
+//! c=short i=note-quarter o=note:21
+40 rr reset
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Viktoria Choir (High) Multi"
+//! id=6b145906-f815-4dd6-b5b1-c0b6d898c4f3
+Bank * * OTMA1 Viktoria Choir Multi
+//! c=long i=note-whole o=note:24
+1 sustain
+//! c=short i=marcato-half o=note:25
+55 marcato long
+//! c=short i=marcato-quarter o=note:26
+52 marcato short
+//! c=short i=staccato o=note:27
+40 staccato
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Choir Women Legato"
+//! id=2608ee45-2bfd-4bfc-bbaa-40bc3c1429da
+Bank * * OTMA1 Choir Women Legato
+//! c=legato i=legato o=@2
+20 legato
+//! c=long i=note-whole o=note:0
+1 sustain pedal
+//! c=short i=note-quarter o=note:21
+40 rr reset
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Choir Women Gliss/FX"
+//! id=816c7c63-8483-4a2f-b1f7-205a87f287b0
+Bank * * OTMA1 Choir Women Gliss/FX
+//! c=fx i=fx o=@3
+31 gliss
+//! c=long i=note-whole o=note:0
+1 sustain pedal
+//! c=short i=note-quarter o=note:21
+40 rr reset
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Finckenstein Strings (High) Multi"
+//! id=6eeaef86-3a79-4b30-96e6-41ec9e1cd7a4
+Bank * * OTMA1 Finckenstein Strings
+//! c=long i=harmonics-natural o=note:24
+3 octaves
+//! c=long i=note-whole o=note:25
+1 sustain
+//! c=long i=tremolo o=note:26
+11 tremolo
+//! c=short i=marcato-half o=note:27
+55 portato long
+//! c=short i=marcato-quarter o=note:28
+52 portato short
+//! c=short i=spiccato o=note:29
+45 spiccato octave
+//! c=short i=spiccato o=note:30
+42 spiccato
+//! c=short i=spiccato o=note:31
+44 blurred spiccato
+//! c=short-dark i=pizz-bartok o=note:32
+57 bartok col legno
+//! c=long i=crescendo o=note:33
+102 crescendo long
+//! c=long i=crescendo o=note:34
+106 crescendo short
+//! c=long i=crescendo o=note:35
+107 swell
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Strings High Legato 8va"
+//! id=3104ecd3-d938-4de5-8d58-47a72e6bdb51
+Bank * * OTMA1 Strings High Legato 8va
+//! c=legato i=legato o=@2
+20 legato
+//! c=long i=note-whole o=note:0
+1 sustain pedal
+//! c=short i=note-quarter o=note:21
+40 rr reset
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Wolfenstein Strings (Low) Multi"
+//! id=c2022206-28d5-41a3-affa-6aacfb96cfcd
+Bank * * OTMA1 Wolfenstein Strings
+//! c=long i=harmonics-natural o=note:24
+3 octaves
+//! c=long i=tremolo o=note:25
+11 tremolo octave
+//! c=short i=marcato-half o=note:26
+55 portato long
+//! c=short i=marcato-quarter o=note:27
+52 portato short
+//! c=short i=spiccato o=note:28
+45 spiccato octave
+//! c=short-dark i=pizz-bartok o=note:29
+57 bartok col legno
+//! c=long i=crescendo o=note:30
+102 crescendo long
+//! c=long i=crescendo o=note:31
+106 crescendo short
+//! c=long i=crescendo o=note:32
+107 swell
+//! c=long i=decrescendo o=note:33
+103 tremolo decrescendo
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Strings Low Legato 8va"
+//! id=856e02fd-a3e9-42e7-b7cb-c8885b2edb0d
+Bank * * OTMA1 Strings Low Legato 8va
+//! c=legato i=legato o=@2
+20 legato
+//! c=long i=note-whole o=note:0
+1 sustain pedal
+//! c=short i=note-quarter o=note:21
+40 rr reset
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Holbein Bassoons a4 Multi"
+//! id=689682ea-f6d1-44ab-9a9f-3083b37f3e84
+Bank * * OTMA1 Holbein Bassoons a4
+//! c=long i=note-whole o=note:96
+1 sustain
+//! c=short i=marcato-half o=note:97
+55 marcato long
+//! c=short i=marcato-quarter o=note:98
+52 marcato short
+//! c=short i=staccato o=note:99
+40 staccato
+//! c=long i=crescendo o=note:100
+102 crescendo long
+//! c=long i=crescendo o=note:101
+106 crescendo short
+//! c=long i=crescendo o=note:102
+107 swell long
+//! c=long i=crescendo o=note:103
+108 swell short
+//! c=fx i=crescendo o=note:104
+109 cresc fluttertongue
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Carnack Contrabassoons a4 Multi"
+//! id=fcb9a2ce-2b26-40e1-9179-fa218d2ae021
+Bank * * OTMA1 Carnack Contrabassoons a4
+//! c=long i=note-whole o=note:84
+1 sustain
+//! c=short i=marcato-half o=note:85
+55 marcato long
+//! c=short i=marcato-quarter o=note:86
+52 marcato short
+//! c=short i=staccato o=note:87
+40 staccato
+//! c=long i=crescendo o=note:88
+102 crescendo long
+//! c=long i=crescendo o=note:89
+106 crescendo short
+//! c=long i=crescendo o=note:90
+107 swell long
+//! c=long i=crescendo o=note:91
+108 swell short
+//! c=fx i=crescendo o=note:92
+109 cresc fluttertongue
+
+//! g="Orchestral Tools/Metropolis Ark 1" n="Drake Piano"
+//! id=a3d639b1-cb3d-4cba-aae9-a7c58413c7c0
+Bank * * OTMA1 Drake Piano
+//! c=long i=note-whole o=note:0
+1 sustain pedal
+//! c=short i=rest-quarter o=note:117
+40 rr reset
+
+//----------------------------------------------------------------------------
+// MISSING MET ARK1 GUITARS AND BASS ARTICULATIONS
+//----------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------
+// 8DIO MAJESTICA
+//Source: Lenard Stockfisch (FishingForSound)
+// https://github.com/jtackaberry/reaticulate/issues/132
+//===========================================================================
+
+//! g="8Dio/Majestica/Strings" n="Long"
+//! id=b53c37d2-ab13-4cfd-963e-b927f2cabdca
+Bank * * 8Dio Majestica Strings Long
+//! c=long i=note-whole o=cc:12,1
+1 Sustains
+//! c=long-dark i=note-whole o=cc:12,6
+2 Power Sustains
+//! c=long-light i=cresc-half o=cc:12,11
+104 Arc P-F-P
+//! c=long i=cresc-half o=cc:12,16
+106 Arc MP-F-MP
+//! c=long-dark i=cresc-half o=cc:12,21
+107 Arc FF-F-FF
+//! c=long-dark i=cresc-half o=cc:12,26
+108 Arc MP-MF
+
+//! g="8Dio/Majestica/Strings" n="Short"
+//! id=dfd8d608-25f5-46ce-b5d1-c9a47731865b
+Bank * * 8Dio Majestica Strings Short
+//! c=short-light i=spiccato o=cc:12,1
+42 Spiccato
+//! c=short-light i=spiccato o=cc:12,6
+62 Spiccato Fast
+//! c=short i=marcato-quarter o=cc:12,11
+52 Marcato
+//! c=short-dark i=col-legno o=cc:12,16
+58 Col Legno
+//! c=short-dark i=pizz-bartok o=cc:12,21
+57 Bartok
+
+//! g="8Dio/Majestica/Strings" n="FX"
+//! id=0eceef02-b121-4f1b-b1fe-766382108510
+Bank * * 8Dio Majestica Strings FX
+//! c=fx i=pizz-bartok o=cc:12,1
+57 Group Bartok
+//! c=fx i=spiccato o=cc:12,41
+90 Savage Hits
+//! c=fx i=phrase o=cc:12,81
+91 Savage Phrases
+
+//! g="8Dio/Majestica/Brass" n="Long"
+//! id=c78191e6-7375-4b3d-bfab-fb8f93cd6365
+Bank * * 8Dio Majestica Brass Long
+//! c=long i=note-whole o=cc:12,1
+1 Sustains
+//! c=long-dark i=note-whole o=cc:12,6
+2 Power Sustains
+//! c=long i=con-sord o=cc:12,11
+7 Power Muted
+//! c=long-light i=cresc-half o=cc:12,16
+104 Arc P-MF-P
+//! c=long i=cresc-half o=cc:12,21
+106 Arc P-F-P
+//! c=long-dark i=cresc-half o=cc:12,26
+108 Arc Short
+
+//! g="8Dio/Majestica/Brass" n="Short"
+//! id=0a0bc682-7b86-43a1-8332-17c137def6d0
+Bank * * 8Dio Majestica Brass Short
+//! c=short-light i=staccato o=cc:12,1
+40 Staccato
+//! c=short-light i=spiccato o=cc:12,6
+41 Staccatissimo
+//! c=short i=marcato-quarter o=cc:12,11
+52 Marcato
+//! c=short-dark i=marcato-quarter o=cc:12,16
+53 Muted Marcato
+
+//! g="8Dio/Majestica/Brass" n="FX"
+//! id=51e65a2f-13ac-4085-a703-c5350965d713
+Bank * * 8Dio Majestica Brass FX
+//! c=fx i=rip o=cc:12,1
+101 Swoops/Rips
+//! c=fx i=rip o=cc:12,6
+100 Bends Up
+//! c=fx i=fall o=cc:12,11
+102 Bends Down
+//! c=fx i=fx o=cc:12,16
+106 Savage Hits
+//! c=fx i=phrase o=cc:12,21
+107 Savage Phrases
+//! c=fx i=fx o=cc:12,26
+108 Breathes
+
+//! g="8Dio/Majestica/Woodwinds" n="High Long"
+//! id=d81ebef1-cfa9-4545-a777-ccba2ec33a21
+Bank * * 8Dio Majestica Woodwinds High Long
+//! c=long i=note-whole o=cc:12,1
+1 Sustains
+//! c=long-dark i=note-whole o=cc:12,6
+2 Power Sustains
+//! c=long-light i=cresc-half o=cc:12,11
+104 Arc P-F-P
+//! c=long i=cresc-half o=cc:12,16
+106 Arc F-FF-F
+//! c=long-dark i=vibrato o=cc:12,21
+11 Flutter Tongue
+//! c=long-dark i=trill-min2 o=cc:12,26
+70 Minor Trills
+//! c=long-dark i=trill-maj2 o=cc:12,31
+71 Major Trills
+
+//! g="8Dio/Majestica/Woodwinds" n="High Short"
+//! id=3c6af45a-b0e7-4ac8-8197-70cbbec03bf0
+Bank * * 8Dio Majestica Woodwinds High Short
+//! c=short-light i=spiccato o=cc:12,1
+40 Staccatissimo
+//! c=short i=tremolo-measured o=cc:12,6
+41 Double Tongue
+//! c=short-dark i=marcato-quarter o=cc:12,11
+52 Marcato
+
+//! g="8Dio/Majestica/Woodwinds" n="Low Long"
+//! id=5de67360-61c1-43e7-b6fd-7fa6466a3c72
+Bank * * 8Dio Majestica Woodwinds Low Long
+//! c=long i=note-whole o=cc:12,1
+1 Sustains
+//! c=long-dark i=note-whole o=cc:12,6
+2 Power Sustains
+//! c=long-light i=cresc-half o=cc:12,11
+104 Arc P-MF-P
+//! c=long i=cresc-half o=cc:12,16
+106 Arc MF-F-MF
+
+//! g="8Dio/Majestica/Woodwinds" n="Low Short"
+//! id=8da7362f-4513-41cf-be03-3b03c940ccf7
+Bank * * 8Dio Majestica Woodwinds Low Short
+//! c=short-light i=spiccato o=cc:12,1
+40 Staccatissimo
+//! c=short i=tremolo-measured o=cc:12,6
+41 Double Tongue
+//! c=short-dark i=staccato o=cc:12,11
+51 Slap Note
+//! c=short-dark i=marcato-quarter o=cc:12,16
+52 Marcato
+
+//! g="8Dio/Majestica/Woodwinds" n="Low FX"
+//! id=0ae2baa1-a2df-4cda-a168-7fdc4185fa0d
+Bank * * 8Dio Majestica Woodwinds Low FX
+//! c=fx i=phrase o=cc:12,21
+107 Savage Phrases Up
+//! c=fx i=phrase o=cc:12,81
+108 Savage Phrases Down
+
+//! g="8Dio/Majestica/Percussion" n="Low"
+//! id=6008185d-24ec-4d9b-927a-6d005fece8d0
+Bank * * 8Dio Majestica Percussion Low
+//! c=short i=note-whole o=cc:12,1
+1 Tom Toms
+//! c=short i=note-whole o=cc:12,6
+2 Grand Cassas
+//! c=short i=note-whole o=cc:12,11
+3 Timpani Hits
+//! c=short i=note-whole o=cc:12,16
+4 Timpani Rolls
+//! c=short i=note-whole o=cc:12,21
+5 Timpani Cresc
+
+//! g="8Dio/Majestica/Percussion" n="High"
+//! id=f2dfe2aa-a5ce-4afb-82ab-be2fa40478f7
+Bank * * 8Dio Majestica Percussion High
+//! c=short i=note-whole o=cc:12,1
+1 Small Snares
+//! c=short i=note-whole o=cc:12,6
+2 Larg Snares
+//! c=short i=note-whole o=cc:12,11
+3 Tambourines
+//! c=short i=note-whole o=cc:12,16
+4 Anvils
+//! c=short i=note-whole o=cc:12,21
+5 Sticks/Claps
+
+//! g="8Dio/Majestica/Percussion" n="Cymbals"
+//! id=dd74bd68-32c1-43d3-b20c-4e9588c6c96f
+Bank * * 8Dio Majestica Percussion Cymbals
+//! c=short i=note-whole o=cc:12,1
+1 Cymbals
+//! c=short i=note-whole o=cc:12,6
+2 Scratches
+//! c=short i=note-whole o=cc:12,11
+3 Tam Tams
+//! c=short i=note-whole o=cc:12,16
+4 Small Gongs
+//! c=short i=note-whole o=cc:12,21
+5 Large Gongs
+
+//----------------------------------------------------------------------------
+// 8DIO Requirem Choir
+// Source: Kitarraman - https://forum.cockos.com/showpost.php?p=2089115&postcount=330
+//
+
+//! g="8Dio/Requiem Professional" n="Choral FX"
+//! id=26636bd0-211b-4ec0-830b-4e236b983778
+Bank * * 8Dio Requiem Pro Choral FX
+//! c=fx i=fx o=note:24
+24 Body Perc
+//! c=fx i=fx o=note:25
+25 Consonants
+//! c=fx i=fx o=note:26
+26 Sweeps
+//! c=fx i=fx o=note:27
+27 Numbers
+//! c=fx i=fx o=note:28
+28 Trill
+//! c=fx i=fx o=note:29
+29 Woo-Ah
+//! c=fx i=fx o=note:30
+30 Ambiences
+//! c=fx i=fx o=note:31
+31 Fah-fre-su
+//! c=fx i=fx o=note:32
+32 Gliss
+//! c=fx i=fx o=note:33
+33 Shrill
+//! c=fx i=fx o=note:34
+35 Male Sweep
+//! c=fx i=fx o=note:36
+37 Female Sweep
+
+//! g="8Dio/Requiem Professional" n="Looped Marcato"
+//! id=4d257026-b78c-4afa-a6f8-791b3945ca83
+Bank * * 8Dio Requiem Pro Looped Marcato
+//! c=fx i=fx o=note:21
+21 Ag
+//! c=fx i=fx o=note:22
+22 Cre
+//! c=fx i=fx o=note:23
+23 Cru
+//! c=fx i=fx o=note:24
+24 Do
+//! c=fx i=fx o=note:25
+25 Fah
+//! c=fx i=fx o=note:26
+26 Fis
+//! c=fx i=fx o=note:27
+27 Glo
+//! c=fx i=fx o=note:28
+28 Ky
+//! c=fx i=fx o=note:29
+29 Mus
+//! c=fx i=fx o=note:30
+30 Nis
+//! c=fx i=fx o=note:31
+31 Nus
+//! c=fx i=fx o=note:32
+32 Rhi
+//! c=fx i=fx o=note:33
+33 Sanc
+//! c=fx i=fx o=note:34
+34 Sin
+//! c=fx i=fx o=note:35
+35 Son
+//! c=fx i=fx o=note:36
+36 Tus
+
+//! g="8Dio/Requiem Professional" n="Marcato"
+//! id=17c77982-130b-43f4-a409-2103e5efa9e5
+Bank * * 8Dio Requiem Pro Looped Marcato
+//! c=fx i=fx o=note:21
+21 Ag
+//! c=fx i=fx o=note:22
+22 Cre
+//! c=fx i=fx o=note:23
+23 Cru
+//! c=fx i=fx o=note:24
+24 Do
+//! c=fx i=fx o=note:25
+25 Fah
+//! c=fx i=fx o=note:26
+26 Fis
+//! c=fx i=fx o=note:27
+27 Glo
+//! c=fx i=fx o=note:28
+28 Ky
+//! c=fx i=fx o=note:29
+29 Mus
+//! c=fx i=fx o=note:30
+30 Nis
+//! c=fx i=fx o=note:31
+31 Nus
+//! c=fx i=fx o=note:32
+32 Rhi
+//! c=fx i=fx o=note:33
+33 Sanc
+//! c=fx i=fx o=note:34
+34 Sin
+//! c=fx i=fx o=note:35
+35 Son
+//! c=fx i=fx o=note:36
+36 Tus
+
+//! g="8Dio/Requiem Professional" n="Poly Solo Baritone"
+//! id=d83b4bd8-1353-4fec-8ddf-b9b5042859d4
+Bank * * 8Dio Requiem Pro Poly Solo Baritone
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Resu
+//! c=fx i=fx o=note:31
+31 Script
+//! c=fx i=fx o=note:32
+32 Secun
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Resu XF
+//! c=legato-light i=fx o=note:95
+95 Script XF
+//! c=legato-light i=fx o=note:96
+96 Secun XF
+
+//! g="8Dio/Requiem Professional" n="Poly Solo Bass"
+//! id=4fa6f577-da31-4504-9022-464f832fdbad
+Bank * * 8Dio Requiem Pro Poly Solo Bass
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Resu
+//! c=fx i=fx o=note:31
+31 Script
+//! c=fx i=fx o=note:32
+32 Lumi
+//! c=fx i=fx o=note:33
+33 Mori
+//! c=fx i=fx o=note:34
+34 Omega
+//! c=fx i=fx o=note:35
+35 Origin
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Resu XF
+//! c=legato-light i=fx o=note:95
+95 Script XF
+//! c=legato-light i=fx o=note:96
+96 Lumi XF
+//! c=legato-light i=fx o=note:97
+97 Mori XF
+//! c=legato-light i=fx o=note:98
+98 Omega XF
+//! c=legato-light i=fx o=note:99
+99 Origin XF
+
+//! g="8Dio/Requiem Professional" n="Poly Solo Soprano 1"
+//! id=f3d5fae0-c103-47c3-af4a-88b85fb3ba28
+Bank * * 8Dio Requiem Pro Poly Solo Soprano 1
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Resu
+//! c=fx i=fx o=note:31
+31 Script
+//! c=fx i=fx o=note:32
+32 Secun
+//! c=fx i=fx o=note:33
+33 Spiri
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Resu XF
+//! c=legato-light i=fx o=note:95
+95 Script XF
+//! c=legato-light i=fx o=note:96
+96 Secun XF
+//! c=legato-light i=fx o=note:97
+97 Spiri XF
+
+//! g="8Dio/Requiem Professional" n="Poly Solo Soprano 2"
+//! id=db327583-8d3e-4107-b1a4-29ea13a0a023
+Bank * * 8Dio Requiem Pro Poly Solo Soprano 2
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Resu
+//! c=fx i=fx o=note:31
+31 Script
+//! c=fx i=fx o=note:32
+32 Lumi
+//! c=fx i=fx o=note:33
+33 Mori
+//! c=fx i=fx o=note:34
+34 Origin
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Resu XF
+//! c=legato-light i=fx o=note:95
+95 Script XF
+//! c=legato-light i=fx o=note:96
+96 Lumi XF
+//! c=legato-light i=fx o=note:97
+97 Mori XF
+//! c=legato-light i=fx o=note:98
+98 Origin XF
+
+//! g="8Dio/Requiem Professional" n="Poly Solo Tenor"
+//! id=af57da43-6b10-49b0-87a8-ecad1bb19def
+Bank * * 8Dio Requiem Pro Poly Solo Tenor
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Resu
+//! c=fx i=fx o=note:31
+31 Script
+//! c=fx i=fx o=note:32
+32 Secun
+//! c=fx i=fx o=note:33
+33 Spiris
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Resu XF
+//! c=legato-light i=fx o=note:95
+95 Script XF
+//! c=legato-light i=fx o=note:96
+96 Secun XF
+//! c=legato-light i=fx o=note:97
+97 Spiri XF
+
+//! g="8Dio/Requiem Professional" n="Poly Sustain Fast"
+//! id=23b35b81-d12a-485f-a608-db7a0b530748
+Bank * * 8Dio Requiem Pro Poly Sustain Fast
+//! c=fx i=fx o=note:16
+16 Adora
+//! c=fx i=fx o=note:17
+17 Apoca
+//! c=fx i=fx o=note:18
+18 Credo
+//! c=fx i=fx o=note:19
+19 Cruchi
+//! c=fx i=fx o=note:20
+20 Domi
+//! c=fx i=fx o=note:21
+21 Incar
+//! c=fx i=fx o=note:22
+22 Lumi
+//! c=fx i=fx o=note:23
+23 Mori
+//! c=fx i=fx o=note:24
+24 Omega
+//! c=fx i=fx o=note:25
+25 Origin
+//! c=fx i=fx o=note:26
+26 Resu
+//! c=fx i=fx o=note:27
+27 Script
+//! c=fx i=fx o=note:28
+28 Apast
+//! c=fx i=fx o=note:29
+29 Dema
+//! c=fx i=fx o=note:30
+30 Exmus
+//! c=fx i=fx o=note:31
+31 Extra
+//! c=fx i=fx o=note:32
+32 Ladi
+//! c=fx i=fx o=note:33
+33 Pisc
+//! c=fx i=fx o=note:34
+34 Dema
+//! c=fx i=fx o=note:35
+35 Apoc
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Lumi XF
+//! c=legato-light i=fx o=note:95
+95 Mori XF
+//! c=legato-light i=fx o=note:96
+96 Omega XF
+//! c=legato-light i=fx o=note:97
+97 Origin XF
+//! c=legato-light i=fx o=note:98
+98 Resu XF
+//! c=legato-light i=fx o=note:99
+99 Script XF
+//! c=legato-light i=fx o=note:100
+100 Apast XF
+//! c=legato-light i=fx o=note:101
+101 Dema XF
+//! c=legato-light i=fx o=note:102
+102 Exmus XF
+//! c=legato-light i=fx o=note:103
+103 Extra XF
+//! c=legato-light i=fx o=note:104
+104 Ladi XF
+//! c=legato-light i=fx o=note:105
+105 Pisc XF
+//! c=legato-light i=fx o=note:106
+106 Dema XF
+//! c=legato-light i=fx o=note:107
+107 Apoc XF
+
+//! g="8Dio/Requiem Professional" n="Poly Sustain Men Slow"
+//! id=bb4685d6-e45d-46fa-8029-46dff2f2cb73
+Bank * * 8Dio Requiem Pro Poly Sustain Men Slow
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Lumi
+//! c=fx i=fx o=note:31
+31 Mori
+//! c=fx i=fx o=note:32
+32 Omega
+//! c=fx i=fx o=note:33
+33 Origin
+//! c=fx i=fx o=note:34
+34 Resu
+//! c=fx i=fx o=note:35
+35 Script
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Lumi XF
+//! c=legato-light i=fx o=note:95
+95 Mori XF
+//! c=legato-light i=fx o=note:96
+96 Omega XF
+//! c=legato-light i=fx o=note:97
+97 Origin XF
+//! c=legato-light i=fx o=note:98
+98 Resu XF
+//! c=legato-light i=fx o=note:99
+99 Script XF
+
+//! g="8Dio/Requiem Professional" n="Poly Sustain Women Slow"
+//! id=e0158265-77b0-4887-b9a8-ab15ff8e8ef5
+Bank * * 8Dio Requiem Pro Poly Sustain Women Slow
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Lumi
+//! c=fx i=fx o=note:31
+31 Mori
+//! c=fx i=fx o=note:32
+32 Omega
+//! c=fx i=fx o=note:33
+33 Origin
+//! c=fx i=fx o=note:34
+34 Resu
+//! c=fx i=fx o=note:35
+35 Script
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Lumi XF
+//! c=legato-light i=fx o=note:95
+95 Mori XF
+//! c=legato-light i=fx o=note:96
+96 Omega XF
+//! c=legato-light i=fx o=note:97
+97 Origin XF
+//! c=legato-light i=fx o=note:98
+98 Resu XF
+//! c=legato-light i=fx o=note:99
+99 Script XF
+
+//! g="8Dio/Requiem Professional" n="Staccato"
+//! id=eca38790-d558-4ecb-8100-193c184a3d04
+Bank * * 8Dio Requiem Pro Staccato
+//! c=fx i=fx o=note:21
+21 Ag
+//! c=fx i=fx o=note:22
+22 Cre
+//! c=fx i=fx o=note:23
+23 Cru
+//! c=fx i=fx o=note:24
+24 Do
+//! c=fx i=fx o=note:25
+25 Fah
+//! c=fx i=fx o=note:26
+26 Fis
+//! c=fx i=fx o=note:27
+27 Glo
+//! c=fx i=fx o=note:28
+28 Ky
+//! c=fx i=fx o=note:29
+29 Ladi
+//! c=fx i=fx o=note:30
+30 Mus
+//! c=fx i=fx o=note:31
+31 Nis
+//! c=fx i=fx o=note:32
+32 Nus
+//! c=fx i=fx o=note:33
+33 Rhi
+//! c=fx i=fx o=note:34
+34 Rru
+//! c=fx i=fx o=note:35
+35 Sanc
+//! c=fx i=fx o=note:36
+36 Sart
+//! c=fx i=fx o=note:37
+37 Sin
+//! c=fx i=fx o=note:38
+38 Son
+//! c=fx i=fx o=note:39
+39 Tus
+
+//! g="8Dio/Requiem Professional" n="Staccato FX"
+//! id=f8885321-cf93-4673-82ed-774bf98a2536
+Bank * * 8Dio Requiem Pro Staccato
+//! c=fx i=fx o=note:24
+24 La
+//! c=fx i=fx o=note:25
+25 Meh
+//! c=fx i=fx o=note:26
+26 La Cluster
+
+//! g="8Dio/Requiem Professional" n="Vowel Sustain Men"
+//! id=4db42d8a-66bc-432e-a994-63b72dbe0518
+Bank * * 8Dio Requiem Pro Vowel Sustain Men
+//! c=fx i=fx o=note:21
+21 Ooh 1
+//! c=fx i=fx o=note:22
+22 Ooh 2
+//! c=fx i=fx o=note:23
+23 Ooh 3
+//! c=fx i=fx o=note:24
+24 Oh
+//! c=fx i=fx o=note:25
+25 Uhm
+//! c=fx i=fx o=note:26
+26 Uum
+//! c=fx i=fx o=note:27
+27 Ahh
+//! c=fx i=fx o=note:28
+28 Ah
+//! c=fx i=fx o=note:29
+29 Aw
+//! c=fx i=fx o=note:30
+30 Ae
+//! c=fx i=fx o=note:31
+31 Ehh
+//! c=fx i=fx o=note:32
+32 Eh
+//! c=fx i=fx o=note:33
+33 Ee
+//! c=fx i=fx o=note:34
+34 Ih
+//! c=fx i=fx o=note:35
+35 Ohm
+//! c=fx i=fx o=note:36
+36 Mm
+
+//! g="8Dio/Requiem Professional" n="Vowel Sustain Women"
+//! id=e236d5d1-9e8f-414a-9f32-f5f13b255def
+Bank * * 8Dio Requiem Pro Vowel Sustain Women
+//! c=fx i=fx o=note:21
+21 Ooh 1
+//! c=fx i=fx o=note:22
+22 Ooh 2
+//! c=fx i=fx o=note:23
+23 Ooh 3
+//! c=fx i=fx o=note:24
+24 Oh
+//! c=fx i=fx o=note:25
+25 Uhm
+//! c=fx i=fx o=note:26
+26 Uum
+//! c=fx i=fx o=note:27
+27 Ahh
+//! c=fx i=fx o=note:28
+28 Ah
+//! c=fx i=fx o=note:29
+29 Aw
+//! c=fx i=fx o=note:30
+30 Ae
+//! c=fx i=fx o=note:31
+31 Ehh
+//! c=fx i=fx o=note:32
+32 Eh
+//! c=fx i=fx o=note:33
+33 Ee
+//! c=fx i=fx o=note:34
+34 Ih
+
+//! g="8Dio/Requiem Professional/LITE" n="Poly Solo Baritone LITE"
+//! id=5dd63de2-4dad-4e18-8c02-4cf485236216
+Bank * * 8Dio Requiem Pro Poly Solo Baritone LITE
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Resu
+//! c=fx i=fx o=note:31
+31 Script
+//! c=fx i=fx o=note:32
+32 Secun
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Resu XF
+//! c=legato-light i=fx o=note:95
+95 Script XF
+//! c=legato-light i=fx o=note:96
+96 Secun XF
+
+//! g="8Dio/Requiem Professional/LITE" n="Poly Solo Bass LITE"
+//! id=ff9962e2-2e74-43eb-a133-50ede412de79
+Bank * * 8Dio Requiem Pro Poly Solo Bass LITE
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Resu
+//! c=fx i=fx o=note:31
+31 Script
+//! c=fx i=fx o=note:32
+32 Lumi
+//! c=fx i=fx o=note:33
+33 Mori
+//! c=fx i=fx o=note:34
+34 Omega
+//! c=fx i=fx o=note:35
+35 Origin
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Resu XF
+//! c=legato-light i=fx o=note:95
+95 Script XF
+//! c=legato-light i=fx o=note:96
+96 Lumi XF
+//! c=legato-light i=fx o=note:97
+97 Mori XF
+//! c=legato-light i=fx o=note:98
+98 Omega XF
+//! c=legato-light i=fx o=note:99
+99 Origin XF
+
+//! g="8Dio/Requiem Professional/LITE" n="Poly Solo Soprano 1 LITE"
+//! id=f0636773-7353-4872-a598-c65fef4fa614
+Bank * * 8Dio Requiem Pro Poly Solo Soprano 1 LITE
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Resu
+//! c=fx i=fx o=note:31
+31 Script
+//! c=fx i=fx o=note:32
+32 Secun
+//! c=fx i=fx o=note:33
+33 Spiri
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Resu XF
+//! c=legato-light i=fx o=note:95
+95 Script XF
+//! c=legato-light i=fx o=note:96
+96 Secun XF
+//! c=legato-light i=fx o=note:97
+97 Spiri XF
+
+//! g="8Dio/Requiem Professional/LITE" n="Poly Solo Soprano 2 LITE"
+//! id=095d9221-73d8-406c-8fa2-93fc86735aa1
+Bank * * 8Dio Requiem Pro Poly Solo Soprano 2 LITE
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Resu
+//! c=fx i=fx o=note:31
+31 Script
+//! c=fx i=fx o=note:32
+32 Lumi
+//! c=fx i=fx o=note:33
+33 Mori
+//! c=fx i=fx o=note:34
+34 Origin
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Resu XF
+//! c=legato-light i=fx o=note:95
+95 Script XF
+//! c=legato-light i=fx o=note:96
+96 Lumi XF
+//! c=legato-light i=fx o=note:97
+97 Mori XF
+//! c=legato-light i=fx o=note:98
+98 Origin XF
+
+//! g="8Dio/Requiem Professional/LITE" n="Poly Solo Tenor LITE"
+//! id=7bba1ed7-84a0-47bc-bbd5-379fb43f97bd
+Bank * * 8Dio Requiem Pro Poly Solo Tenor LITE
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Resu
+//! c=fx i=fx o=note:31
+31 Script
+//! c=fx i=fx o=note:32
+32 Secun
+//! c=fx i=fx o=note:33
+33 Spiris
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Resu XF
+//! c=legato-light i=fx o=note:95
+95 Script XF
+//! c=legato-light i=fx o=note:96
+96 Secun XF
+//! c=legato-light i=fx o=note:97
+97 Spiri XF
+
+//! g="8Dio/Requiem Professional/LITE" n="Poly Sustain Fast LITE"
+//! id=720cecc7-3303-47ff-980d-598ac4fb9d58
+Bank * * 8Dio Requiem Pro Poly Sustain Fast LITE
+//! c=fx i=fx o=note:16
+16 Adora
+//! c=fx i=fx o=note:17
+17 Apoca
+//! c=fx i=fx o=note:18
+18 Credo
+//! c=fx i=fx o=note:19
+19 Cruchi
+//! c=fx i=fx o=note:20
+20 Domi
+//! c=fx i=fx o=note:21
+21 Incar
+//! c=fx i=fx o=note:22
+22 Lumi
+//! c=fx i=fx o=note:23
+23 Mori
+//! c=fx i=fx o=note:24
+24 Omega
+//! c=fx i=fx o=note:25
+25 Origin
+//! c=fx i=fx o=note:26
+26 Resu
+//! c=fx i=fx o=note:27
+27 Script
+//! c=fx i=fx o=note:28
+28 Apast
+//! c=fx i=fx o=note:29
+29 Dema
+//! c=fx i=fx o=note:30
+30 Exmus
+//! c=fx i=fx o=note:31
+31 Extra
+//! c=fx i=fx o=note:32
+32 Ladi
+//! c=fx i=fx o=note:33
+33 Pisc
+//! c=fx i=fx o=note:34
+34 Dema
+//! c=fx i=fx o=note:35
+35 Apoc
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Lumi XF
+//! c=legato-light i=fx o=note:95
+95 Mori XF
+//! c=legato-light i=fx o=note:96
+96 Omega XF
+//! c=legato-light i=fx o=note:97
+97 Origin XF
+//! c=legato-light i=fx o=note:98
+98 Resu XF
+//! c=legato-light i=fx o=note:99
+99 Script XF
+//! c=legato-light i=fx o=note:100
+100 Apast XF
+//! c=legato-light i=fx o=note:101
+101 Dema XF
+//! c=legato-light i=fx o=note:102
+102 Exmus XF
+//! c=legato-light i=fx o=note:103
+103 Extra XF
+//! c=legato-light i=fx o=note:104
+104 Ladi XF
+//! c=legato-light i=fx o=note:105
+105 Pisc XF
+//! c=legato-light i=fx o=note:106
+106 Dema XF
+//! c=legato-light i=fx o=note:107
+107 Apoc XF
+
+//! g="8Dio/Requiem Professional/LITE" n="Poly Sustain Men Slow LITE"
+//! id=eced55ba-c783-40c6-9754-61599bdb0b62
+Bank * * 8Dio Requiem Pro Poly Sustain Men Slow LITE
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Lumi
+//! c=fx i=fx o=note:31
+31 Mori
+//! c=fx i=fx o=note:32
+32 Omega
+//! c=fx i=fx o=note:33
+33 Origin
+//! c=fx i=fx o=note:34
+34 Resu
+//! c=fx i=fx o=note:35
+35 Script
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Lumi XF
+//! c=legato-light i=fx o=note:95
+95 Mori XF
+//! c=legato-light i=fx o=note:96
+96 Omega XF
+//! c=legato-light i=fx o=note:97
+97 Origin XF
+//! c=legato-light i=fx o=note:98
+98 Resu XF
+//! c=legato-light i=fx o=note:99
+99 Script XF
+
+//! g="8Dio/Requiem Professional/LITE" n="Poly Sustain Women Slow LITE"
+//! id=c7407898-cfaf-47c5-96d0-24c14a0e42d2
+Bank * * 8Dio Requiem Pro Poly Sustain Women Slow LITE
+//! c=fx i=fx o=note:24
+24 Adora
+//! c=fx i=fx o=note:25
+25 Apoca
+//! c=fx i=fx o=note:26
+26 Credo
+//! c=fx i=fx o=note:27
+27 Cruchi
+//! c=fx i=fx o=note:28
+28 Domi
+//! c=fx i=fx o=note:29
+29 Incar
+//! c=fx i=fx o=note:30
+30 Lumi
+//! c=fx i=fx o=note:31
+31 Mori
+//! c=fx i=fx o=note:32
+32 Omega
+//! c=fx i=fx o=note:33
+33 Origin
+//! c=fx i=fx o=note:34
+34 Resu
+//! c=fx i=fx o=note:35
+35 Script
+//! c=legato-light i=fx o=note:88
+88 Adora XF
+//! c=legato-light i=fx o=note:89
+89 Apoca XF
+//! c=legato-light i=fx o=note:90
+90 Credo XF
+//! c=legato-light i=fx o=note:91
+91 Cruchi XF
+//! c=legato-light i=fx o=note:92
+92 Domi XF
+//! c=legato-light i=fx o=note:93
+93 Incar XF
+//! c=legato-light i=fx o=note:94
+94 Lumi XF
+//! c=legato-light i=fx o=note:95
+95 Mori XF
+//! c=legato-light i=fx o=note:96
+96 Omega XF
+//! c=legato-light i=fx o=note:97
+97 Origin XF
+//! c=legato-light i=fx o=note:98
+98 Resu XF
+//! c=legato-light i=fx o=note:99
+99 Script XF
+
+
+//----------------------------------------------------------------------------
+// 8DIO INSOLIDUS CHOIR
+// Source: Lenard Stockfisch (FishingForSound)
+// https://github.com/jtackaberry/reaticulate/issues/132
+//===========================================================================
+
+//! g="8Dio/Insolidus" n="Legato"
+//! id=bb65bdd7-6c7e-42ef-9877-66c5f7c901d9
+Bank * * 8Dio Insolidus Legato
+//! c=legato i=legato o=cc:12,1
+1 Ah
+//! c=legato i=legato o=cc:12,6
+2 Eh
+//! c=legato i=legato o=cc:12,11
+7 Oh
+//! c=legato i=legato o=cc:12,16
+5 Uh
+
+//! g="8Dio/Insolidus" n="Sustain"
+//! id=b6981483-249d-41cd-9d57-ceb98c8204d6
+Bank * * 8Dio Insolidus Sustain
+//! c=long i=note-whole o=cc:12,1
+1 Uh
+//! c=long i=note-whole o=cc:12,6
+2 Ah
+//! c=long i=note-whole o=cc:12,11
+3 Mmm
+//! c=long i=note-whole o=cc:12,16
+4 Uh (Loop)
+//! c=long i=note-whole o=cc:12,21
+5 Ah (Loop)
+//! c=long i=note-whole o=cc:12,26
+6 Mmmm (Loop)
+
+//! g="8Dio/Insolidus" n="Arc 2 Syllables"
+//! id=39af1e6d-e0a8-4729-8170-ce9ec8e4b932
+Bank * * 8Dio Insolidus Arc 2 Syllables
+//! c=long i=cresc-half o=cc:12,1
+1 Ah-Noh
+//! c=long i=cresc-half o=cc:12,6
+2 Far-Soh
+//! c=long i=cresc-half o=cc:12,11
+3 Eh-Loh
+//! c=long i=cresc-half o=cc:12,16
+4 Ah-Tus
+//! c=long i=cresc-half o=cc:12,21
+5 Rar-Mus
+//! c=long i=cresc-half o=cc:12,26
+6 Zar-Rus
+//! c=long i=cresc-half o=cc:12,31
+7 Ah-Eh
+//! c=long i=cresc-half o=cc:12,36
+8 Uh-Nuh
+//! c=long i=cresc-half o=cc:12,41
+9 Mah-Neh
+
+//! g="8Dio/Insolidus" n="Arc 3 Syllables"
+//! id=152f8d5d-32f7-4f5f-8dc6-679856328212
+Bank * * 8Dio Insolidus Arc 3 Syllables
+//! c=long i=cresc-half o=cc:12,1
+1 Ah-Noh-Soh
+//! c=long i=cresc-half o=cc:12,6
+2 Far-Oh-Loh
+//! c=long i=cresc-half o=cc:12,11
+3 Eh-Tu-Noh
+//! c=long i=cresc-half o=cc:12,16
+4 Ah-Tu-Mus
+//! c=long i=cresc-half o=cc:12,21
+5 Star-Su-Rus
+//! c=long i=cresc-half o=cc:12,26
+6 Zar-Nu-Stus
+//! c=long i=cresc-half o=cc:12,31
+7 Ah-Eh-Uh
+//! c=long i=cresc-half o=cc:12,36
+8 Ni-Mah-Suh
+//! c=long i=cresc-half o=cc:12,41
+9 Eh-Nu-Luh
+
+//! g="8Dio/Insolidus" n="Arc 4 Syllables"
+//! id=6f1bd700-5256-4211-9060-772ee85115d2
+Bank * * 8Dio Insolidus Arc 4 Syllables
+//! c=long i=cresc-half o=cc:12,1
+1 Car-Pe-Noc-Tem
+//! c=long i=cresc-half o=cc:12,6
+2 Zar-Te-Oh-Sem
+//! c=long i=cresc-half o=cc:12,11
+3 Ag-Nus-De-Ee
+//! c=long i=cresc-half o=cc:12,16
+4 Mar-Tu-Neh-Ee
+//! c=long i=cresc-half o=cc:12,21
+5 Im-Pe-Ri-Us
+//! c=long i=cresc-half o=cc:12,26
+6 Eh-Nu-Mi-Um
+//! c=long i=cresc-half o=cc:12,31
+7 Veh-Lo-Ci-Us
+//! c=long i=cresc-half o=cc:12,36
+8 Meh-Noh-Ci-Tus
+
+//! g="8Dio/Insolidus" n="Multi Vowels 3-4"
+//! id=967e5160-f30a-447a-b6c8-ca8e3381a23d
+Bank * * 8Dio Insolidus Multi Vowels 3-4
+//! c=long i=phrase o=cc:12,1
+1 Totus-Tuus
+//! c=long i=phrase o=cc:12,6
+2 Mater Nostri
+//! c=long i=phrase o=cc:12,11
+3 Sum Maria
+//! c=long i=phrase o=cc:12,16
+4 Redemptoris
+//! c=long i=phrase o=cc:12,21
+5 Virgo Dei
+//! c=long i=phrase o=cc:12,26
+6 Virgo Pia
+//! c=long i=phrase o=cc:12,31
+7 Mater Mundi
+//! c=long i=phrase o=cc:12,36
+8 Salvatoris
+//! c=long-dark i=phrase o=cc:12,41
+9 Maaaaaa-Ri-Ah (FF)
+//! c=long-dark i=phrase o=cc:12,46
+10 Ma-Ri-Ahhhhhh (FF)
+
+//! g="8Dio/Insolidus" n="Multi Vowels 3-4 Swells"
+//! id=8639dbc3-ab5f-4bf4-bd60-24c184b9d391
+Bank * * 8Dio Insolidus Multi Vowels 3-4 Swells
+//! c=long i=cresc-half o=cc:12,1
+1 Totus-Tuus
+//! c=long i=cresc-half o=cc:12,6
+2 Mater Nostri
+//! c=long i=cresc-half o=cc:12,11
+3 Sum Maria
+//! c=long i=cresc-half o=cc:12,16
+4 Redemptoris
+//! c=long i=cresc-half o=cc:12,21
+5 Virgo Dei
+//! c=long i=cresc-half o=cc:12,26
+6 Mater Mundi
+//! c=long i=cresc-half o=cc:12,31
+7 Salvatoris
+
+//! g="8Dio/Insolidus" n="Multi Vowels 4-4 MW"
+//! id=0fd18862-d3ed-4bcf-bf05-123090e57de6
+Bank * * 8Dio Insolidus Multi Vowels 4-4 MW
+//! c=long i=phrase o=cc:12,1
+1 Car-Pe-Noc-Tem
+//! c=long i=phrase o=cc:12,6
+2 Zar-Te-Oh-Sem
+//! c=long i=phrase o=cc:12,11
+3 Ag-Nus-De-Ee
+//! c=long i=phrase o=cc:12,16
+4 Mar-Tu-Neh-Ee
+//! c=long i=phrase o=cc:12,21
+5 Im-Pe-Ri-Um
+//! c=long i=phrase o=cc:12,26
+6 Eh-Nu-Mi-Um
+//! c=long i=phrase o=cc:12,31
+7 Veh-Lo-Ci-Us
+//! c=long i=phrase o=cc:12,36
+8 Meh-Noh-Ci-Tus
+
+//! g="8Dio/Insolidus" n="Multi Vowels 4-4 Cresc"
+//! id=2876eeb5-15e1-4615-b5b9-faa92a2391ba
+Bank * * 8Dio Insolidus Multi Vowels 4-4 Cresc
+//! c=long i=cresc-half o=cc:12,1
+1 Car-Pe-Noc-Tem
+//! c=long i=cresc-half o=cc:12,6
+2 Zar-Te-Oh-Sem
+//! c=long i=cresc-half o=cc:12,11
+3 Ag-Nus-De-Ee
+//! c=long i=cresc-half o=cc:12,16
+4 Mar-Tu-Neh-Ee
+//! c=long i=cresc-half o=cc:12,21
+5 Im-Pe-Ri-Um
+//! c=long i=cresc-half o=cc:12,26
+6 Eh-Nu-Mi-Um
+//! c=long i=cresc-half o=cc:12,31
+7 Veh-Lo-Ci-Us
+//! c=long i=cresc-half o=cc:12,36
+8 Meh-Noh-Ci-Tus
+
+//! g="8Dio/Insolidus" n="Multi Vowels 4-4 Swells 1"
+//! id=2a42f0b2-d25c-45af-bf3c-1508d1a560ee
+Bank * * 8Dio Insolidus Multi Vowels 4-4 Swells 1
+//! c=long i=cresc-half o=cc:12,1
+1 Car-Pe-Noc-Tem
+//! c=long i=cresc-half o=cc:12,6
+2 Zar-Te-Oh-Sem
+//! c=long i=cresc-half o=cc:12,11
+3 Ag-Nus-De-Ee
+//! c=long i=cresc-half o=cc:12,16
+4 Mar-Tu-Neh-Ee
+//! c=long i=cresc-half o=cc:12,21
+5 Im-Pe-Ri-Um
+//! c=long i=cresc-half o=cc:12,26
+6 Eh-Nu-Mi-Um
+//! c=long i=cresc-half o=cc:12,31
+7 Veh-Lo-Ci-Us
+//! c=long i=cresc-half o=cc:12,36
+8 Meh-Noh-Ci-Tus
+
+//! g="8Dio/Insolidus" n="Multi Vowels 4-4 Swells 2"
+//! id=4cc639cd-c66a-4739-a83d-5a3a3d12eaa6
+Bank * * 8Dio Insolidus Multi Vowels 4-4 Swells 2
+//! c=long i=cresc-half o=cc:12,1
+1 Car-Pe-Noc-Tem
+//! c=long i=cresc-half o=cc:12,6
+2 Zar-Te-Oh-Sem
+//! c=long i=cresc-half o=cc:12,11
+3 Ag-Nus-De-Ee
+//! c=long i=cresc-half o=cc:12,16
+4 Mar-Tu-Neh-Ee
+//! c=long i=cresc-half o=cc:12,21
+5 Im-Pe-Ri-Um
+//! c=long i=cresc-half o=cc:12,26
+6 Eh-Nu-Mi-Um
+//! c=long i=cresc-half o=cc:12,31
+7 Veh-Lo-Ci-Us
+//! c=long i=cresc-half o=cc:12,36
+8 Meh-Noh-Ci-Tus
+
+//! g="8Dio/Insolidus" n="Shorts"
+//! id=5ffc3f85-558e-458d-9fd3-efc1099887b3
+Bank * * 8Dio Insolidus Shorts
+//! c=short i=tenuto-quarter o=cc:12,1
+1 Tem (CC1 Dynamics)
+//! c=short i=tenuto-quarter o=cc:12,6
+2 Sem (CC1 Dynamics)
+//! c=short i=tenuto-quarter o=cc:12,11
+3 Ee (CC1 Dynamics)
+//! c=short i=tenuto-quarter o=cc:12,16
+4 Um (CC1 Dynamics)
+//! c=short i=tenuto-quarter o=cc:12,21
+5 Us (CC1 Dynamics)
+//! c=short i=tenuto-quarter o=cc:12,26
+6 Tus (CC1 Dynamics)
+
+
+//----------------------------------------------------------------------------
+// 8DIO CLAIR ALTO FLUTE
+// Source: axb312 - https://vi-control.net/community/threads/reaticulate-articulation-management-for-reaper-0-3-0-now-available.66851/post-4326516
+//
+
+//! g="8Dio/Claire Alto Flute" n="Legato"
+//! chase=1,11
+
+//! id=151ad0c8-17b8-47d4-95b1-f32fcedb550d
+Bank * * Legato
+
+//! c=legato i=legato o=note:24
+20 Natural Legato
+
+//! c=legato i=legato o=note:25
+21 Soft 1 - Gentle, light vibrato
+
+//! c=legato i=legato o=note:26
+22 Soft 2 - Gentle, progressing vibrato
+
+//! c=legato i=legato o=note:27
+23 Medium
+
+//! c=legato i=legato o=note:28
+24 Strong
+
+//! c=short i=staccato o=note:30
+25 Staccattissimo
+
+//! c=short i=marcato o=note:31
+26 Marcato
+
+
+//----------------------------------------------------------------------------
+//! g="8Dio/Claire Alto Flute" n="Trills"
+//! chase=1,11
+
+//! id=e61491d8-1468-4717-99b3-51e08d5c545f
+Bank * * Trills
+
+//! c=long i=trill-min3 o=note:28
+20 Minor 2nd Trill
+
+//! c=long i=trill-maj2 o=note:29
+21 Major 2nd Trill
+
+
+//----------------------------------------------------------------------------
+//! g="8Dio/Claire Alto Flute" n="Bonus"
+//! chase=1,11
+
+//! id=596bc2f6-3e1a-453d-bc93-15a38aaf496e
+Bank * * Bonus
+
+//! c=legato i=legato-runs o=note:24
+20 Major run
+
+//! c=legato i=legato-runs o=note:25
+21 Major run 2 Oct
+
+//! c=legato i=legato-runs o=note:26
+22 Minor run up
+
+//! c=legato i=legato-runs o=note:27
+23 Minor run 2 Oct
+
+//! c=fx i=fx o=note:28
+24 Breaths
+
+//! c=fx i=fx o=note:29
+25 Valve clicks

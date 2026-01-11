@@ -1,0 +1,374 @@
+//----------------------------------------------------------------------------
+// Source bradleybboone: https://github.com/jtackaberry/reaticulate/issues/17
+//
+
+//----------------------------------------------------------------------------
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Brass Ensemble"
+//! id=bbb10cad-4c7d-4494-bce5-84a91a52a25f
+Bank * * SSBE Brass Ensemble
+//! c=long i=note-whole o=note:24
+1 sustain
+//! c=short i=staccato o=note:25
+40 staccato
+//! c=long i=decrescendo o=note:26
+103 decrescendo
+//! c=short i=sfz o=note:27
+52 sforzando
+//! c=long i=crescendo o=note:28
+102 crescendo
+//! c=long i=crescendo o=note:29
+29 swell
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Trumpets"
+//! id=cca996b3-24ca-4935-9004-06a3fe7cdaa4
+Bank * * SSBE Trumpets
+//! c=long i=note-whole o=note:24
+1 sustain
+//! c=long i=multitongued o=note:25
+75 sustain dbl tng
+//! c=long i=tremolo-measured o=note:26
+11 flutter
+//! c=long i=trill-min2 o=note:27
+70 trill m2
+//! c=long i=trill-perf4 o=note:28
+74 horse
+//! c=long i=trill-maj2 o=note:29
+71 trill M2
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Trumpets Sustain"
+//! id=ca6becb0-2337-4e5e-9201-6d9a61a516ed
+Bank * * SSBE Trumpets Sustain
+//! c=long i=note-whole o=note:24
+1 sustain
+//! c=long i=multitongued o=note:25
+75 sustain dbl tng
+//! c=long i=tremolo-measured o=note:26
+11 flutter
+//! c=long i=trill-min2 o=note:27
+70 trill m2
+//! c=long i=trill-perf4 o=note:28
+74 horse
+//! c=long i=trill-maj2 o=note:29
+71 trill M2
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Trumpets Staccato"
+//! id=b8dccbe9-6a6f-4fa7-90ed-c55a14b699e4
+Bank * * SSBE Trumpets Staccato
+//! c=short i=staccato o=note:24
+40 staccato
+//! c=short-light i=staccato o=note:25
+48 staccato piano
+//! c=short i=staccato o=note:26
+41 staccato mezzo
+//! c=short-dark i=staccato o=note:27
+49 staccato forte
+//! c=short i=multitongued o=note:28
+28 triple tng
+//! c=short i=trill-maj2 o=note:29
+71 stacc str mute
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Trumpets Legato"
+//! id=6e65c395-8984-4bad-b3ee-b35c070f3622
+Bank * * SSBE Trumpets Legato
+//! c=legato i=legato o=note:24
+20 legato
+//! c=legato-light i=legato o=note:25
+27 legato piano
+//! c=legato i=legato o=note:26
+21 legato mezzo
+//! c=legato-dark i=legato o=note:27
+28 legato forte
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Trumpets Expression"
+//! id=8e1bda0f-c73e-4f97-b413-c60d91f8692c
+Bank * * SSBE Trumpets Expression
+//! c=long i=decrescendo o=note:24
+103 decrescendo
+//! c=short i=sfz o=note:25
+52 sforzando
+//! c=long i=crescendo o=note:26
+26 swell
+//! c=legato-dark i=legato o=note:27
+28 legato forte
+//! c=long i=run-major o=note:28
+28 step down1
+//! c=long i=run-major o=note:29
+29 step down2
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Trumpets Effects"
+//! id=b631bb69-b3ea-465e-9934-faf6f3929889
+Bank * * SSBE Trumpets Effects
+//! c=fx i=fx o=note:24
+24 cluster
+//! c=fx i=fx o=note:25
+25 cluster loop
+//! c=long i=fx o=note:26
+26 shake sustain
+//! c=legato-dark i=run-major o=note:27
+27 blast down
+//! c=long i=run-major o=note:28
+28 blast up
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Horns"
+//! id=739dc7b4-b975-41ac-95de-b6937b508611
+Bank * * SSBE Horns
+//! c=long i=note-whole o=note:24
+1 sustain
+//! c=long i=note-quarter o=note:25
+25 single tng
+//! c=long i=tremolo-measured o=note:26
+11 flutter
+//! c=long i=trill-min2 o=note:27
+70 trill m2
+//! c=long i=decrescendo o=note:26
+103 decrescendo
+//! c=long i=crescendo o=note:28
+102 crescendo
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Horns Sustain"
+//! id=7aaa86e3-4776-4de1-ad92-5389cecaf516
+Bank * * SSBE Horns Sustain
+//! c=long i=note-whole o=note:24
+1 sustain
+//! c=long i=note-quarter o=note:25
+25 single tng
+//! c=long i=tremolo-measured o=note:26
+11 flutter
+//! c=long i=trill-min2 o=note:27
+70 trill m2
+//! c=long i=decrescendo o=note:26
+103 decrescendo
+//! c=long i=crescendo o=note:28
+102 crescendo
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Horns Staccato"
+//! id=48aad02d-65a9-495a-9db6-c6d2c59e721f
+Bank * * SSBE Horns Staccato
+//! c=short i=staccato o=note:24
+40 staccato
+//! c=short-light i=staccato o=note:25
+48 staccato piano
+//! c=short-dark i=staccato o=note:26
+49 staccato forte
+//! c=short i=stopped o=note:27
+47 stop mute
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Horns Legato"
+//! id=3743ae2c-b6cc-4758-844c-c05e842ed832
+Bank * * SSBE Horns Legato
+//! c=legato i=legato o=note:24
+20 legato
+//! c=legato-light i=legato o=note:25
+27 legato piano
+//! c=legato i=legato o=note:26
+21 legato mezzo
+//! c=legato-dark i=legato o=note:27
+28 legato forte
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Horns Expression"
+//! id=a5d474e2-1d93-4aeb-ad69-32c88a94fb2d
+Bank * * SSBE Horns Expression
+//! c=fx i=fx o=note:24
+24 bend down
+//! c=short-dark i=rip o=note:25
+25 blast fff
+//! c=long i=decrescendo o=note:26
+103 decrescendo
+//! c=long i=crescendo o=note:27
+102 crescendo
+//! c=long i=crescendo o=note:28
+28 swell
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Horns Effects"
+//! id=9edeceb2-186c-4bcf-bf70-3bacd95ed05f
+Bank * * SSBE Horns Effects
+//! c=fx i=fx o=note:24
+24 bend down
+//! c=long i=fx o=note:25
+91 breath
+//! c=short i=staccato o=note:26
+26 stacc cluster
+//! c=long i=fx o=note:27
+99 sweep up
+//! c=long i=fx o=note:28
+28 tuning
+//! c=long i=fx o=note:29
+29 valve clearing
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Trombones"
+//! id=92fe1941-3fc6-4ee0-b84f-6a429bcf5b95
+Bank * * SSBE Trombones
+//! c=long i=note-whole o=note:24
+1 sustain
+//! c=long i=con-sord o=note:25
+7 straight mute
+//! c=long i=legato-gliss o=note:26
+77 trill gliss
+//! c=long i=trill-min2 o=note:27
+70 trill tng
+//! c=fx i=decrescendo o=note:28
+28 bend up
+//! c=long i=decrescendo o=note:29
+103 decrescendo
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Trombones Sustain"
+//! id=56058148-fa29-4ec6-ab38-2826c185319d
+Bank * * SSBE Trombones Sustain
+//! c=long i=note-whole o=note:24
+1 sustain
+//! c=long i=note-whole o=note:25
+7 straight mute
+//! c=long i=legato-gliss o=note:26
+77 trill gliss
+//! c=long i=trill-min2 o=note:27
+70 trill tng
+//! c=fx i=decrescendo o=note:28
+28 bend up
+//! c=long i=decrescendo o=note:29
+103 decrescendo
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Trombones Staccato"
+//! id=8383c727-085d-4546-8733-cc863960bd12
+Bank * * SSBE Trombones Staccato
+//! c=short i=staccato o=note:24
+40 staccato
+//! c=short-light i=staccato o=note:25
+48 staccato piano
+//! c=short i=staccato o=note:26
+41 staccato mezzo
+//! c=short-dark i=staccato o=note:27
+49 staccato forte
+//! c=short i=multitongued o=note:28
+28 staccato dbl tng
+//! c=short i=multitongued o=note:29
+29 stacc triple tng
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Trombones Legato"
+//! id=1adfe168-31d2-4333-a6f9-69bc652046d1
+Bank * * SSBE Trombones Legato
+//! c=legato i=legato o=note:24
+20 legato
+//! c=legato-light i=legato o=note:25
+27 legato piano
+//! c=legato i=legato o=note:26
+21 legato mezzo
+//! c=legato-dark i=legato o=note:27
+28 legato forte
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Trombones Expression"
+//! id=c82cf7e0-ff3b-4c94-b150-165dc7cc7b33
+Bank * * SSBE Trombones Expression
+//! c=fx i=fx o=note:24
+24 bend Up
+//! c=long i=decrescendo o=note:25
+103 decrescendo
+//! c=short i=sfz o=note:26
+52 sforzando
+//! c=long i=crescendo o=note:27
+102 crescendo
+//! c=long i=crescendo o=note:28
+28 swell
+//! c=long i=legato-gliss o=note:29
+77 trill gliss
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Trombones Effects"
+//! id=a3da2053-d616-4c75-a88f-c7693dce7645
+Bank * * SSBE Trombones Effects
+//! c=fx i=rest-quarter o=note:24
+91 breath
+//! c=long i=fx o=note:25
+25 cluster swells
+//! c=short i=fx o=note:26
+26 cluster staccato
+//! c=fx i=fx o=note:27
+27 cluster bend
+//! c=fx i=fx o=note:28
+28 cluster
+//! c=long i=fx o=note:29
+29 cluster loop
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Tubas"
+//! id=053f940a-9adb-4f74-9a08-9aba9f7c6f2d
+Bank * * SSBE Tubas
+//! c=long i=note-whole o=note:24
+1 sustain 
+//! c=long i=trill o=note:25
+70 trill
+//! c=long i=decrescendo o=note:26
+103 decrescendo
+//! c=long i=crescendo o=note:27
+102 crescendo
+//! c=long i=fx o=note:28
+28 bend up
+//! c=long i=fx o=note:29
+29 bend down
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Tubas Sustain"
+//! id=cebc58ac-c960-435c-b67e-fccbafc0b4c0
+Bank * * SSBE Tubas Sustain
+//! c=long i=note-whole o=note:24
+1 sustain 
+//! c=long i=trill o=note:25
+70 trill
+//! c=long i=decrescendo o=note:26
+103 decrescendo
+//! c=long i=crescendo o=note:27
+102 crescendo
+//! c=long i=fx o=note:28
+28 bend up
+//! c=long i=fx o=note:29
+29 bend down
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Tubas Staccato"
+//! id=fcb85cc0-ef4d-4f2a-ab94-63d821ebbd6c
+Bank * * SSBE Tubas Staccato
+//! c=short i=staccato o=note:24
+40 staccato
+//! c=short-light i=staccato o=note:25
+48 staccato piano
+//! c=short-dark i=staccato o=note:26
+49 staccato forte
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Tubas Legato"
+//! id=cdfe88df-4030-4ded-a945-6666460f2870
+Bank * * SSBE Tubas Legato
+//! c=legato i=legato o=note:24
+20 legato
+//! c=legato-light i=legato o=note:25
+27 legato piano
+//! c=legato i=legato o=note:26
+21 legato mezzo
+//! c=legato-dark i=legato o=note:27
+28 legato forte
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Tubas Expression"
+//! id=a6b7d845-1be8-4aa1-998f-e2ddef8de695
+Bank * * SSBE Tubas Expression
+//! c=long i=decrescendo o=note:24
+106 decrescendo slow
+//! c=long i=decrescendo o=note:25
+107 decrescendo fast
+//! c=long i=sfz o=note:26
+52 sforzando
+//! c=long i=crescendo o=note:27
+102 crescendo
+//! c=long i=crescendo o=note:28
+28 swell fast
+//! c=long i=crescendo o=note:29
+29 swell slow
+
+//! g="Native Instruments/Symphony Series/Brass Ensemble" n="Tubas Effects"
+//! id=977e795f-d7b5-4e17-968e-a7aa87aa5da6
+Bank * * SSBE Tubas Effects
+//! c=fx i=rest-quarter o=note:24
+91 breath 1
+//! c=fx i=rest-quarter o=note:25
+92 breath 2
+//! c=long i=crescendo o=note:26
+26 cluster swells
+//! c=long i=note-whole o=note:27
+27 cluster
+//! c=long i=note-whole o=note:28
+28 cluster loop
+//! c=long i=tremolo-measured o=note:29
+14 octave flutter

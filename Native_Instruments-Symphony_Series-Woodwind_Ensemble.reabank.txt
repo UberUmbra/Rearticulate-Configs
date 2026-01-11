@@ -1,0 +1,722 @@
+//----------------------------------------------------------------------------
+// Source bradleybboone: https://github.com/jtackaberry/reaticulate/issues/17
+//
+
+//----------------------------------------------------------------------------
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Woodwind Ensemble"
+//! id=00fb5c8e-c258-4f98-8162-998b238d3b23
+Bank * * SSWE Woodwind Ensemble
+//! c=long i=note-whole o=note:24
+1 sustain
+//! c=short i=staccato o=note:25
+40 staccato
+//! c=long i=crescendo o=note:26
+102 crescendo
+//! c=long i=decrescendo o=note:27
+103 decrescendo
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Flutes"
+//! id=5b8aa3c4-1e28-4c06-8ab6-58f488acf8a7
+Bank * * SSWE Flutes
+//! c=long i=note-whole o=note:12
+1 sustain
+//! c=long i=vibrato o=note:13
+16 vibrato all
+//! c=short i=staccato o=note:14
+40 staccato
+//! c=short i=multitongued o=note:15
+28 staccato dbl tng
+//! c=long i=crescendo o=note:16
+102 crescendo
+//! c=long i=decrescendo o=note:17
+103 decrescendo
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Flutes Sustain"
+//! id=749360b1-6b52-4557-9faf-13cfa0add5b6
+Bank * * SSWE Flutes Sustain
+//! c=long i=note-whole o=note:12
+1 sustain
+//! c=long i=vibrato o=note:13
+16 vibrato all
+//! c=long i=tremolo-measured o=note:14
+11 flutter
+//! c=long i=run-major o=note:15
+77 single tng run
+//! c=long i=run-major o=note:16
+78 dbl tng run
+//! c=long i=note-whole o=note:17
+2 2nd sustain
+//! c=long i=note-whole o=note:18
+19 2nd vibrato
+//! c=long i=trill-min2 o=note:19
+70 trill m2
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Flutes Staccato"
+//! id=eadda557-a242-4fa7-801e-4907875fab3a
+Bank * * SSWE Flutes Staccato
+//! c=short i=staccato o=note:12
+40 staccato
+//! c=short-light i=staccato o=note:13
+48 staccato piano
+//! c=short-dark i=staccato o=note:14
+49 staccato forte
+//! c=short i=multitongued o=note:15
+62 staccato dbl tng
+//! c=short i=multitongued o=note:16
+63 staccato triple tng
+//! c=short i=tremolo-measured o=note:17
+41 flutter
+//! c=short-dark i=staccato-sfz o=note:18
+49 staccato sfz
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Flutes Legato"
+//! id=7303a18e-24bf-40a4-b9cc-c72edb0c707e
+Bank * * SSWE Flutes Legato
+//! c=legato i=legato o=note:12
+20 legato
+//! c=legato-light i=legato o=note:13
+27 legato piano
+//! c=legato i=legato o=note:14
+21 legato mezzo
+//! c=legato-dark i=legato o=note:15
+28 legato forte
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Flutes Expression"
+//! id=68c9a1cd-5eca-4916-b1d7-9eae45779679
+Bank * * SSWE Flutes Expression
+//! c=long i=crescendo o=note:12
+102 crescendo
+//! c=long i=decrescendo o=note:13
+103 decrescendo
+//! c=long i=sfz o=note:14
+52 sfz fast
+//! c=long i=crescendo o=note:15
+28 swell fast
+//! c=long i=sfz o=note:16
+55 sfz slow
+//! c=long i=crescendo o=note:17
+29 swell slow
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Flutes Effects"
+//! id=738d24e5-b4ea-4e49-899b-6925044f986d
+Bank * * SSWE Flutes Effects
+//! c=short-light i=riccochet o=note:12
+12 cluster stacc piano
+//! c=short-dark i=riccochet o=note:13
+13 cluster stacc forte
+//! c=long i=fx o=note:14
+14 cluster sustain1
+//! c=long i=fx o=note:15
+15 cluster sustain2
+//! c=fx i=fx o=note:16
+16 valve click
+//! c=fx i=rip o=note:17
+17 sweep up sustain
+//! c=fx i=rip o=note:18
+18 sweep up staccato
+//! c=fx i=rip-downward o=note:19
+19 plunk staccato
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Flutes Arpeggio"
+//! id=6b757753-a50e-42f1-a758-46b7bb6c2d22
+Bank * * SSWE Flutes Arpeggio
+//! c=legato i=legato-runs o=note:12
+12 maj up
+//! c=legato i=legato-runs o=note:13
+13 min up
+//! c=legato i=legato-runs o=note:14
+14 aug up
+//! c=legato i=legato-runs o=note:15
+15 dim up
+//! c=legato i=legato-runs o=note:16
+16 maj up-dn
+//! c=legato i=legato-runs o=note:17
+17 min up-dn
+//! c=legato i=legato-runs o=note:18
+18 aug up-dn
+//! c=legato i=legato-runs o=note:19
+19 dim up-dn
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Oboes"
+//! id=b24fc3db-cd9e-42be-8951-df1612863b74
+Bank * * SSWE Oboes
+//! c=long i=note-whole o=note:12
+1 sustain
+//! c=long i=vibrato o=note:13
+16 vibrato all
+//! c=short i=staccato o=note:14
+40 staccato
+//! c=short i=multitongued o=note:15
+28 staccato dbl tng
+//! c=long i=crescendo o=note:16
+102 crescendo
+//! c=long i=decrescendo o=note:17
+103 decrescendo
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Oboes Sustain"
+//! id=6903617b-2ae2-4319-b967-4b07bafbe661
+Bank * * SSWE Oboes Sustain
+//! c=long i=note-whole o=note:12
+1 sustain
+//! c=long i=vibrato o=note:13
+16 vibrato all
+//! c=long i=run-major o=note:14
+77 single tng run
+//! c=long i=note-whole o=note:15
+2 2nd sustain
+//! c=long i=note-whole o=note:16
+19 2nd vibrato
+//! c=long i=crescendo o=note:17
+102 crescendo
+//! c=long i=decrescendo o=note:18
+103 decrescendo
+//! c=long i=trill-min2 o=note:19
+70 trill m2
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Oboes Staccato"
+//! id=192ed37f-f1c9-44d9-9d3b-34bcf074e1de
+Bank * * SSWE Oboes Staccato
+//! c=short i=staccato o=note:12
+40 staccato
+//! c=short-light i=staccato o=note:13
+48 staccato piano
+//! c=short-dark i=staccato o=note:14
+49 staccato forte
+//! c=short i=multitongued o=note:15
+62 staccato dbl tng
+//! c=short i=multitongued o=note:16
+63 staccato triple tng
+//! c=short i=tremolo-measured o=note:17
+41 flutter
+//! c=short-dark i=staccato-sfz o=note:18
+49 2nd staccato
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Oboes Legato"
+//! id=5108a2a7-635a-4491-910f-b9326aff876e
+Bank * * SSWE Oboes Legato
+//! c=legato i=legato o=note:12
+20 legato
+//! c=legato-light i=legato o=note:13
+27 legato piano
+//! c=legato i=legato o=note:14
+21 legato mezzo
+//! c=legato-dark i=legato o=note:15
+28 legato forte
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Oboes Expression"
+//! id=c05e254b-8d00-4275-90cb-e9a72bd1d3aa
+Bank * * SSWE Oboes Expression
+//! c=long i=crescendo o=note:12
+102 crescendo
+//! c=long i=decrescendo o=note:13
+103 decrescendo
+//! c=long i=sfz o=note:14
+52 sfz fast
+//! c=long i=crescendo o=note:15
+28 swell fast
+//! c=long i=sfz o=note:16
+55 sfz slow
+//! c=long i=crescendo o=note:17
+29 swell slow
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Oboes Effects"
+//! id=f9deaaef-8fa8-4dda-9b4d-dff2af69b411
+Bank * * SSWE Oboes Effects
+//! c=short-light i=riccochet o=note:12
+12 3note stab
+//! c=short-dark i=riccochet o=note:13
+13 discord forte
+//! c=long i=crescendo o=note:14
+14 cluster crescendo
+//! c=long i=decrescendo o=note:15
+15 cluster decrescendo
+//! c=short i=staccato o=note:16
+16 cluster staccato
+//! c=long i=note-whole o=note:17
+17 cluster sustain
+//! c=fx i=run-major o=note:18
+18 mysterious run
+//! c=short i=rip o=note:19
+19 sweep up staccato
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Oboes Arpeggio"
+//! id=ae27627d-b2e1-441d-b17d-49c117da6331
+Bank * * SSWE Oboes Arpeggio
+//! c=legato i=legato-runs o=note:12
+12 maj up
+//! c=legato i=legato-runs o=note:13
+13 min up
+//! c=legato i=legato-runs o=note:14
+14 aug up
+//! c=legato i=legato-runs o=note:15
+15 dim up
+//! c=legato i=legato-runs o=note:16
+16 maj up-dn
+//! c=legato i=legato-runs o=note:17
+17 min up-dn
+//! c=legato i=legato-runs o=note:18
+18 aug up-dn
+//! c=legato i=legato-runs o=note:19
+19 dim up-dn
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Clarinets"
+//! id=30d384fb-0153-4778-b2bf-e18f974a8390
+Bank * * SSWE Clarinets
+//! c=long i=note-whole o=note:12
+1 sustain
+//! c=long i=vibrato o=note:13
+16 vibrato all
+//! c=short i=staccato o=note:14
+40 staccato
+//! c=short i=multitongued o=note:15
+28 staccato dbl tng
+//! c=long i=crescendo o=note:16
+102 crescendo
+//! c=long i=decrescendo o=note:17
+103 decrescendo
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Clarinets Sustain"
+//! id=6749b5ae-dd4f-418f-805f-6b47ed4fd3f4
+Bank * * SSWE Clarinets Sustain
+//! c=long i=note-whole o=note:12
+1 sustain
+//! c=long i=vibrato o=note:13
+16 vibrato all
+//! c=long i=tremolo-measured o=note:14
+11 flutter
+//! c=long i=run-major o=note:15
+77 single tng run
+//! c=long i=trill-min2 o=note:16
+70 trill m2
+//! c=long i=trill-maj2 o=note:17
+71 trill M2
+//! c=long i=crescendo o=note:18
+102 crescendo
+//! c=long i=decrescendo o=note:19
+103 decrescendo
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Clarinets Staccato"
+//! id=1c250fae-2f96-461b-b127-18f2f9ea6c88
+Bank * * SSWE Clarinets Staccato
+//! c=short i=staccato o=note:12
+40 staccato
+//! c=short-light i=staccato o=note:13
+48 staccato piano
+//! c=short-dark i=staccato o=note:14
+49 staccato forte
+//! c=short i=multitongued o=note:15
+62 staccato dbl tng
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Clarinets Legato"
+//! id=2fd9d235-bc9a-486a-90ca-4bc5659e947c
+Bank * * SSWE Clarinets Legato
+//! c=legato i=legato o=note:12
+20 legato
+//! c=legato-light i=legato o=note:13
+27 legato piano
+//! c=legato i=legato o=note:14
+21 legato mezzo
+//! c=legato-dark i=legato o=note:15
+28 legato forte
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Clarinets Expression"
+//! id=3afa3801-1058-430d-ae8c-8bf307912271
+Bank * * SSWE Clarinets Expression
+//! c=long i=crescendo o=note:12
+102 crescendo
+//! c=long i=decrescendo o=note:13
+103 decrescendo
+//! c=long i=sfz o=note:14
+52 sfz fast
+//! c=long i=crescendo o=note:15
+28 swell fast
+//! c=long i=sfz o=note:16
+55 sfz slow
+//! c=long i=crescendo o=note:17
+29 swell slow
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Clarinets Effects"
+//! id=b0865a3f-578c-4f3e-a2f8-45ebe2c08686
+Bank * * SSWE Clarinets Effects
+//! c=long i=alt-wave o=note:12
+12 bend dn-up
+//! c=short i=staccato o=note:13
+13 cluster staccato
+//! c=long i=riccochet o=note:14
+14 dissonance sustain
+//! c=long-dark i=note-whole o=note:15
+15 cluster forte
+//! c=long i=rip-downward o=note:16
+16 flourish aug dn
+//! c=short i=rip o=note:17
+17 flourish maj up
+//! c=short i=harmonics o=note:18
+18 cluster sustain
+//! c=fx i=rip-downward o=note:19
+19 swoop down
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Clarinets Arpeggio"
+//! id=fab1bb35-9c02-4625-9556-9b5e8937f557
+Bank * * SSWE Clarinets Arpeggio
+//! c=legato i=legato-runs o=note:12
+12 maj up
+//! c=legato i=legato-runs o=note:13
+13 min up
+//! c=legato i=legato-runs o=note:14
+14 aug up
+//! c=legato i=legato-runs o=note:15
+15 dim up
+//! c=legato i=legato-runs o=note:16
+16 maj up-dn
+//! c=legato i=legato-runs o=note:17
+17 min up-dn
+//! c=legato i=legato-runs o=note:18
+18 aug up-dn
+//! c=legato i=legato-runs o=note:19
+19 dim up-dn
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Saxophones"
+//! id=f09e54b2-9643-4e01-a1a0-2afcd2cd8a97
+Bank * * SSWE Saxophones
+//! c=long i=note-whole o=note:12
+1 sustain
+//! c=long i=vibrato o=note:13
+16 vibrato all
+//! c=short i=staccato o=note:14
+40 staccato
+//! c=short i=multitongued o=note:15
+28 staccato dbl tng
+//! c=long i=crescendo o=note:16
+102 crescendo
+//! c=long i=decrescendo o=note:17
+103 decrescendo
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Saxophones Sustain"
+//! id=066072d2-630e-4815-ac76-5883bc9ea1e8
+Bank * * SSWE Saxophones Sustain
+//! c=long i=note-whole o=note:12
+1 sustain
+//! c=long i=vibrato o=note:13
+16 vibrato all
+//! c=long i=tremolo-measured o=note:14
+11 flutter
+//! c=long i=run-major o=note:15
+77 single tng run
+//! c=long i=trill-min2 o=note:16
+70 trill m2
+//! c=long i=trill-maj2 o=note:17
+71 trill M2
+//! c=long i=crescendo o=note:18
+102 crescendo
+//! c=long i=decrescendo o=note:19
+103 decrescendo
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Saxophones Staccato"
+//! id=773b9fb5-44f1-42d5-a275-bea4bea04ccd
+Bank * * SSWE Saxophones Staccato
+//! c=short i=staccato o=note:12
+40 staccato
+//! c=short-light i=staccato o=note:13
+48 staccato piano
+//! c=short-dark i=staccato o=note:14
+49 staccato forte
+//! c=short i=multitongued o=note:15
+62 staccato dbl tng
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Saxophones Legato"
+//! id=9033e27b-742f-44a9-b3be-5e7c188bfa7b
+Bank * * SSWE Saxophones Legato
+//! c=legato i=legato o=note:12
+20 legato
+//! c=legato-light i=legato o=note:13
+27 legato piano
+//! c=legato i=legato o=note:14
+21 legato mezzo
+//! c=legato-dark i=legato o=note:15
+28 legato forte
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Saxophones Expression"
+//! id=c802ea46-2b02-4f84-9190-1ba7ce28389e
+Bank * * SSWE Saxophones Expression
+//! c=long i=crescendo o=note:12
+102 crescendo
+//! c=long i=decrescendo o=note:13
+103 decrescendo
+//! c=long i=sfz o=note:14
+52 sfz fast
+//! c=long i=crescendo o=note:15
+28 swell fast
+//! c=long i=sfz o=note:16
+55 sfz slow
+//! c=long i=crescendo o=note:17
+29 swell slow
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Saxophones Effects"
+//! id=f3134323-032f-4097-a931-c8646de632da
+Bank * * SSWE Saxophones Effects
+//! c=long i=alt-wave o=note:12
+12 bend dn-up
+//! c=long i=alt-wave o=note:13
+13 dissonant swell bend
+//! c=long i=note-whole o=note:14
+14 cluster dynamic
+//! c=short i=sfz o=note:15
+15 dissonant stinger sfz
+//! c=short-dark i=staccato o=note:16
+16 cluster forte
+//! c=long i=tremolo-measured o=note:17
+17 cluster flutter tng
+//! c=long i=crescendo o=note:18
+18 cluster crescendo
+//! c=short i=rip o=note:19
+19 flourish maj up
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Saxophones Arpeggio"
+//! id=2bd68b7a-a4bc-4c19-af0e-b0cdcd433e05
+Bank * * SSWE Saxophones Arpeggio
+//! c=legato i=legato-runs o=note:12
+12 maj up
+//! c=legato i=legato-runs o=note:13
+13 min up
+//! c=legato i=legato-runs o=note:14
+14 aug up
+//! c=legato i=legato-runs o=note:15
+15 dim up
+//! c=legato i=legato-runs o=note:16
+16 maj up-dn
+//! c=legato i=legato-runs o=note:17
+17 min up-dn
+//! c=legato i=legato-runs o=note:18
+18 aug up-dn
+//! c=legato i=legato-runs o=note:19
+19 dim up-dn
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bassoons"
+//! id=99f49978-aad5-4a13-b014-3edcd2584fc2
+Bank * * SSWE Bassoons
+//! c=long i=note-whole o=note:12
+1 sustain
+//! c=long i=vibrato o=note:13
+16 vibrato all
+//! c=short i=staccato o=note:14
+40 staccato
+//! c=short i=multitongued o=note:15
+28 staccato dbl tng
+//! c=long i=crescendo o=note:16
+102 crescendo
+//! c=long i=decrescendo o=note:17
+103 decrescendo
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bassoons Sustain"
+//! id=604f15ee-7c7d-4c38-92e3-5666e0fc393a
+Bank * * SSWE Bassoons Sustain
+//! c=long i=note-whole o=note:12
+1 sustain
+//! c=long i=vibrato o=note:13
+16 vibrato all
+//! c=long i=tremolo-measured o=note:14
+11 flutter
+//! c=long i=run-major o=note:15
+77 single tng run
+//! c=long i=trill-min2 o=note:16
+70 trill m2
+//! c=long i=trill-maj2 o=note:17
+71 trill M2
+//! c=long i=crescendo o=note:18
+102 crescendo
+//! c=long i=decrescendo o=note:19
+103 decrescendo
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bassoons Staccato"
+//! id=5b203ccf-2e3b-4a33-8683-fa31c57012d8
+Bank * * SSWE Bassoons Staccato
+//! c=short i=staccato o=note:12
+40 staccato
+//! c=short-light i=staccato o=note:13
+48 staccato piano
+//! c=short-dark i=staccato o=note:14
+49 staccato forte
+//! c=short i=multitongued o=note:15
+62 staccato dbl tng
+//! c=short i=alt-wave o=note:16
+16 staccato bend dn
+//! c=short i=alt-wave o=note:17
+16 staccato bend up
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bassoons Legato"
+//! id=fcd1c222-9468-4e01-a7d2-d34a324d80b0
+Bank * * SSWE Bassoons Legato
+//! c=legato i=legato o=note:12
+20 legato
+//! c=legato-light i=legato o=note:13
+27 legato piano
+//! c=legato i=legato o=note:14
+21 legato mezzo
+//! c=legato-dark i=legato o=note:15
+28 legato forte
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bassoons Expression"
+//! id=50ed9240-2558-4346-8a21-52eba428392e
+Bank * * SSWE Bassoons Expression
+//! c=long i=crescendo o=note:12
+102 crescendo
+//! c=long i=decrescendo o=note:13
+103 decrescendo
+//! c=long i=sfz o=note:14
+52 sfz fast
+//! c=long i=crescendo o=note:15
+28 swell fast
+//! c=long i=sfz o=note:16
+55 sfz slow
+//! c=long i=crescendo o=note:17
+29 swell slow
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bassoons Effects"
+//! id=4d62d408-05ba-476e-a810-4616b9d9341c
+Bank * * SSWE Bassoons Effects
+//! c=long i=crescendo o=note:12
+12 cluster crescendo
+//! c=short i=staccato o=note:13
+13 cluster staccato
+//! c=long-dark i=note-whole o=note:14
+14 cluster forte
+//! c=long-dark i=note-whole o=note:15
+15 cluster dissonance
+//! c=short i=rip-downward o=note:16
+16 flourish aug dn
+//! c=short i=rip-downward o=note:17
+17 flourish maj dn
+//! c=short i=rip o=note:18
+18 flourish aug up
+//! c=short i=rip o=note:19
+19 flourish maj up
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bassoons Arpeggio"
+//! id=75061879-3bb7-4c8c-9390-ac1d4d525a0d
+Bank * * SSWE Bassoons Arpeggio
+//! c=legato i=legato-runs o=note:12
+12 maj up
+//! c=legato i=legato-runs o=note:13
+13 min up
+//! c=legato i=legato-runs o=note:14
+14 aug up
+//! c=legato i=legato-runs o=note:15
+15 dim up
+//! c=legato i=legato-runs o=note:16
+16 maj up-dn
+//! c=legato i=legato-runs o=note:17
+17 min up-dn
+//! c=legato i=legato-runs o=note:18
+18 aug up-dn
+//! c=legato i=legato-runs o=note:19
+19 dim up-dn
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bass Winds"
+//! id=49dd8cb0-bcd1-4f04-94a7-91e6bf780282
+Bank * * SSWE Bass Winds
+//! c=long i=note-whole o=note:12
+1 sustain
+//! c=long i=tremolo-measured o=note:13
+11 growl
+//! c=short i=staccato o=note:14
+40 staccato
+//! c=short i=multitongued o=note:15
+28 staccato dbl tng
+//! c=long i=crescendo o=note:16
+102 crescendo
+//! c=long i=decrescendo o=note:17
+103 decrescendo
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bass Winds Sustain"
+//! id=37c230fb-92f6-448c-8f8f-933292b978aa
+Bank * * SSWE Bass Winds Sustain
+//! c=long i=note-whole o=note:12
+1 sustain
+//! c=long i=tremolo-measured o=note:13
+11 growl
+//! c=long i=run-major o=note:14
+77 single tng run
+//! c=long i=trill-min2 o=note:15
+70 trill m2
+//! c=long i=trill-maj2 o=note:16
+71 trill M2
+//! c=long i=crescendo o=note:17
+102 crescendo
+//! c=long i=decrescendo o=note:18
+103 decrescendo
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bass Winds Staccato"
+//! id=2affde30-ef5e-4f69-9f47-0ceaefd19dd8
+Bank * * SSWE Bass Winds Staccato
+//! c=short i=staccato o=note:12
+40 staccato
+//! c=short-light i=staccato o=note:13
+48 staccato piano
+//! c=short-dark i=staccato o=note:14
+49 staccato forte
+//! c=short i=multitongued o=note:15
+62 staccato dbl tng
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bass Winds Legato"
+//! id=fc06aa1b-c601-4096-a634-460f7816bc30
+Bank * * SSWE Bass Winds Legato
+//! c=legato i=legato o=note:12
+20 legato
+//! c=legato-light i=legato o=note:13
+27 legato piano
+//! c=legato i=legato o=note:14
+21 legato mezzo
+//! c=legato-dark i=legato o=note:15
+28 legato forte
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bass Winds Expression"
+//! id=efdc30a5-64ef-48c2-9743-200689d74347
+Bank * * SSWE Bass Winds Expression
+//! c=long i=crescendo o=note:12
+102 crescendo
+//! c=long i=decrescendo o=note:13
+103 decrescendo
+//! c=long i=sfz o=note:14
+52 sfz fast
+//! c=long i=crescendo o=note:15
+28 swell fast
+//! c=long i=sfz o=note:16
+55 sfz slow
+//! c=long i=crescendo o=note:17
+29 swell slow
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bass Winds Effects"
+//! id=a96b5278-c642-4e00-9b7e-870beca11fce
+Bank * * SSWE Bass Winds Effects
+//! c=short-dark i=sfz o=note:12
+12 cluster dissonance sfz
+//! c=short-dark i=sfz o=note:13
+13 cluster sfz
+//! c=short i=staccato o=note:14
+14 cluster stacc bass clar
+//! c=short i=staccato o=note:15
+14 cluster stacc contra bsn
+//! c=short i=staccato o=note:16
+16 cluster staccato
+//! c=long i=note-whole o=note:17
+17 cluster sustain
+//! c=short i=rip-downward o=note:18
+18 flourish dissonant
+//! c=short i=rip o=note:19
+19 flourish maj up
+
+//! g="Native Instruments/Symphony Series/Woodwind Ensemble" n="Bass Winds Arpeggio"
+//! id=44193b33-0b0e-4e96-9298-80290510ffdb
+Bank * * SSWE Bass Winds Arpeggio
+//! c=legato i=legato-runs o=note:12
+12 maj up
+//! c=legato i=legato-runs o=note:13
+13 min up
+//! c=legato i=legato-runs o=note:14
+14 maj up-dn
+//! c=legato i=legato-runs o=note:15
+15 min up-dn
+//! c=legato i=legato-runs o=note:16
+18 5ths
+//! c=legato i=legato-runs o=note:17
+19 octaves
